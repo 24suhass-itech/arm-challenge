@@ -1,0 +1,103 @@
+class_index,class_name,crop
+0,rice leaf roller,Rice
+1,rice leaf caterpillar,Rice
+2,paddy stem maggot,Rice
+3,asiatic rice borer,Rice
+4,yellow rice borer,Rice
+5,rice gall midge,Rice
+6,Rice Stemfly,Rice
+7,brown plant hopper,Rice
+8,white backed plant hopper,Rice
+9,small brown plant hopper,Rice
+10,rice water weevil,Rice
+11,rice leafhopper,Rice
+12,grain spreader thrips,Rice
+13,rice shell pest,Rice
+14,grub,Corn
+15,mole cricket,Corn
+16,wireworm,Corn
+17,white margined moth,Corn
+18,black cutworm,Corn
+19,large cutworm,Corn
+20,yellow cutworm,Corn
+21,red spider,Corn
+22,corn borer,Corn
+23,army worm,Corn
+24,aphids,Corn
+25,Potosiabre vitarsis,Corn
+26,peach borer,Corn
+27,english grain aphid,Wheat
+28,green bug,Wheat
+29,bird cherry-oataphid,Wheat
+30,wheat blossom midge,Wheat
+31,penthaleus major,Wheat
+32,longlegged spider mite,Wheat
+33,wheat phloeothrips,Wheat
+34,wheat sawfly,Wheat
+35,cerodonta denticornis,Wheat
+36,beet fly,Beet
+37,flea beetle,Beet
+38,cabbage army worm,Beet
+39,beet army worm,Beet
+40,Beet spot flies,Beet
+41,meadow moth,Beet
+42,beet weevil,Beet
+43,sericaorient alismots chulsky,Beet
+44,alfalfa weevil,Alfalfa
+45,flax budworm,Alfalfa
+46,alfalfa plant bug,Alfalfa
+47,tarnished plant bug,Alfalfa
+48,Locustoidea,Alfalfa
+49,lytta polita,Alfalfa
+50,legume blister beetle,Alfalfa
+51,blister beetle,Alfalfa
+52,therioaphis maculata Buckton,Alfalfa
+53,odontothrips loti,Alfalfa
+54,Thrips,Alfalfa
+55,alfalfa seed chalcid,Alfalfa
+56,Pieris canidia,Alfalfa
+57,Apolygus lucorum,Vitis
+58,Limacodidae,Vitis
+59,Viteus vitifoliae,Vitis
+60,Colomerus vitis,Vitis
+61,Brevipoalpus lewisi McGregor,Vitis
+62,oides decempunctata,Vitis
+63,Polyphagotars onemus latus,Vitis
+64,Pseudococcus comstocki Kuwana,Vitis
+65,parathrene regalis,Vitis
+66,Ampelophaga,Vitis
+67,Lycorma delicatula,Vitis
+68,Xylotrechus,Vitis
+69,Cicadella viridis,Vitis
+70,Miridae,Vitis
+71,Trialeurodes vaporariorum,Vitis
+72,Erythroneura apicalis,Vitis
+73,Papilio xuthus,Citrus
+74,Panonchus citri McGregor,Citrus
+75,Phyllocoptes oleiverus ashmead,Citrus
+76,Icerya purchasi Maskell,Citrus
+77,Unaspis yanonensis,Citrus
+78,Ceroplastes rubens,Citrus
+79,Chrysomphalus aonidum,Citrus
+80,Parlatoria zizyphus Lucus,Citrus
+81,Nipaecoccus vastalor,Citrus
+82,Aleurocanthus spiniferus,Citrus
+83,Tetradacus c Bactrocera minax,Citrus
+84,Dacus dorsalis(Hendel),Citrus
+85,Bactrocera tsuneonis,Citrus
+86,Prodenia litura,Citrus
+87,Adristyrannus,Citrus
+88,Phyllocnistis citrella Stainton,Citrus
+89,Toxoptera citricidus,Citrus
+90,Toxoptera aurantii,Citrus
+91,Aphis citricola Vander Goot,Citrus
+92,Scirtothrips dorsalis Hood,Mango
+93,Dasineura sp,Mango
+94,Lawana imitata Melichar,Mango
+95,Salurnis marginella Guerr,Mango
+96,Deporaus marginatus Pascoe,Mango
+97,Chlumetia transversa,Mango
+98,Mango flat beak leafhopper,Mango
+99,Rhytidodera bowrinii white,Mango
+100,Sternochetus frigidus,Mango
+101,Cicadellidae,Mango

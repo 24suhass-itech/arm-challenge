@@ -1,0 +1,20 @@
+model,dataset,test_images,top1,top3,crop,macro_class_acc,note
+disease_model,Background,664,98.64,99.85,98.64,98.64,
+disease_model,Corn,142,94.37,100.0,99.3,94.37,
+disease_model,PlantDoc,236,65.25,85.17,83.47,65.19,
+disease_model,PlantVillage,8175,99.43,100.0,99.89,99.29,
+disease_model,PlantWild,356,71.35,88.2,85.39,67.96,
+disease_model,Potato,76,97.37,100.0,98.68,97.83,
+disease_model,TomatoVillage,58,93.1,100.0,100.0,86.93,
+unified,Corn,142,95.77,100.0,100.0,96.22,
+unified,PlantDoc,236,61.02,83.9,81.78,60.66,
+unified,PlantVillage,8175,99.46,100.0,99.93,99.32,
+unified,PlantWild,356,46.35,64.33,67.98,41.36,
+unified,Potato,76,100.0,100.0,100.0,100.0,
+unified,TomatoVillage,58,13.79,37.93,39.66,13.85,
+six_dataset,Corn,142,99.3,100.0,100.0,99.49,contaminated: trained on these
+six_dataset,PlantDoc,236,52.97,80.08,76.27,52.68,
+six_dataset,PlantVillage,8175,99.13,99.94,99.73,99.01,
+six_dataset,PlantWild,356,71.35,85.96,83.71,71.25,contaminated: trained on these
+six_dataset,Potato,76,100.0,100.0,100.0,100.0,contaminated: trained on these
+six_dataset,TomatoVillage,58,98.28,100.0,100.0,96.3,contaminated: trained on these

@@ -1,0 +1,839 @@
+id,dataset,member,label,fixed_split,drop_reason
+1644,PlantVillage,PlantVillage-Dataset-master/raw/color/Apple___healthy/11beda66-01e9-4bfd-be37-c0f8646d1478___RS_HL 6271.JPG,Apple___healthy,,duplicate of a test image
+1674,PlantVillage,PlantVillage-Dataset-master/raw/color/Apple___healthy/14896dc0-688d-456f-b5ec-a037695b0193___RS_HL 6268.JPG,Apple___healthy,,duplicate of a test image
+1909,PlantVillage,PlantVillage-Dataset-master/raw/color/Apple___healthy/3673d121-b5de-481c-b057-d4ee5b4959b1___RS_HL 6269.JPG,Apple___healthy,test,exact duplicate
+1965,PlantVillage,PlantVillage-Dataset-master/raw/color/Apple___healthy/3d075f90-7002-4c45-abc0-4f35ee49aa79___RS_HL 6272.JPG,Apple___healthy,,duplicate of a test image
+2092,PlantVillage,PlantVillage-Dataset-master/raw/color/Apple___healthy/5192db55-4aa7-421c-92d4-c2dac79e7379___RS_HL 6273.JPG,Apple___healthy,,duplicate of a test image
+2971,PlantVillage,PlantVillage-Dataset-master/raw/color/Apple___healthy/dc18b924-f172-445d-8fed-61445d437aaa___RS_HL 6270.JPG,Apple___healthy,test,exact duplicate
+3091,PlantVillage,PlantVillage-Dataset-master/raw/color/Apple___healthy/f2cda910-55c7-46d7-b1a2-9a3bb9792148___RS_HL 6274.JPG,Apple___healthy,,duplicate of a test image
+9352,PlantVillage,PlantVillage-Dataset-master/raw/color/Corn_(maize)___healthy/116ba4e1-7cd5-4d4e-b876-5212a41a0ab3___R.S_HL 8201 copy .jpg,Corn_(maize)___healthy,train,duplicate of a val image
+39492,PlantVillage,PlantVillage-Dataset-master/raw/color/Tomato___Late_blight/1a69b38b-c4eb-42c4-9584-bcb14fb8db0c___GHLB2 Leaf 9011.JPG,Tomato___Late_blight,,duplicate of a test image
+39747,PlantVillage,PlantVillage-Dataset-master/raw/color/Tomato___Late_blight/3fae9c64-18f0-4a67-9f97-554248bb1bed___GHLB_PS Leaf 24 Day 16.jpg,Tomato___Late_blight,,duplicate of a test image
+39827,PlantVillage,PlantVillage-Dataset-master/raw/color/Tomato___Late_blight/48c55974-9fe9-4f4b-94f7-c8cd127d1e05___GHLB_PS Leaf 23.7 Day 13.jpg,Tomato___Late_blight,,duplicate of a test image
+40258,PlantVillage,PlantVillage-Dataset-master/raw/color/Tomato___Late_blight/861d8b00-57a4-46b0-b51a-09d102dbe119___GHLB_PS Leaf 24 Day 13.jpg,Tomato___Late_blight,,duplicate of a test image
+40402,PlantVillage,PlantVillage-Dataset-master/raw/color/Tomato___Late_blight/98586693-fe1f-4ea0-8e27-4501b61cf09b___GHLB_PS Leaf 23.5 Day 13.jpg,Tomato___Late_blight,,duplicate of a test image
+40891,PlantVillage,PlantVillage-Dataset-master/raw/color/Tomato___Late_blight/d81682aa-746b-4e07-af2b-52ebb6f4c017___GHLB2 Leaf 102.JPG,Tomato___Late_blight,test,exact duplicate
+40968,PlantVillage,PlantVillage-Dataset-master/raw/color/Tomato___Late_blight/e20107e7-137f-400e-817f-5dc4c58e5d70___GHLB2 Leaf 8677.JPG,Tomato___Late_blight,test,exact duplicate
+41002,PlantVillage,PlantVillage-Dataset-master/raw/color/Tomato___Late_blight/e5d707cd-077c-43af-bda9-6138e516ff51___GHLB2 Leaf 8999.JPG,Tomato___Late_blight,test,exact duplicate
+52748,PlantVillage,PlantVillage-Dataset-master/raw/color/Tomato___healthy/068e324c-faf6-40d6-8f83-578907f1cac5___GH_HL Leaf 466.1.JPG,Tomato___healthy,,duplicate of a test image
+52883,PlantVillage,PlantVillage-Dataset-master/raw/color/Tomato___healthy/1af0bfe1-4bcf-4b8b-be66-5d0953eb647e___GH_HL Leaf 482.2.JPG,Tomato___healthy,,duplicate of a test image
+53060,PlantVillage,PlantVillage-Dataset-master/raw/color/Tomato___healthy/37aad83b-7ff8-4b35-b3ed-fb8e0f54910b___GH_HL Leaf 342.1.JPG,Tomato___healthy,,duplicate of a test image
+53172,PlantVillage,PlantVillage-Dataset-master/raw/color/Tomato___healthy/488feb1c-4b9f-44e7-8aa6-4103a9601f5f___GH_HL Leaf 434.JPG,Tomato___healthy,,duplicate of a test image
+53233,PlantVillage,PlantVillage-Dataset-master/raw/color/Tomato___healthy/505465db-407b-4e0a-8110-7479dad5261c___GH_HL Leaf 389.JPG,Tomato___healthy,test,exact duplicate
+53672,PlantVillage,PlantVillage-Dataset-master/raw/color/Tomato___healthy/9662364c-aaba-45e3-b907-10792d60578c___GH_HL Leaf 220.JPG,Tomato___healthy,,duplicate of a test image
+54805,PlantDoc,PlantDoc-Dataset/train/Corn leaf blight/gls99-anamosa-400x334.jpg,Corn_(maize)___Northern_Leaf_Blight,,near-duplicate with a different label
+54836,PlantDoc,PlantDoc-Dataset/train/Corn leaf blight/IMG_42231.jpg,Corn_(maize)___Northern_Leaf_Blight,,duplicate of a test image
+54901,PlantDoc,PlantDoc-Dataset/train/Corn leaf blight/DSCN0128.jpg,Corn_(maize)___Northern_Leaf_Blight,,duplicate of a val image
+54954,PlantDoc,PlantDoc-Dataset/train/Corn Gray leaf spot/Corn-gray-leaf-spot-8-15-F1-660.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,train,duplicate of a val image
+54956,PlantDoc,PlantDoc-Dataset/train/Corn Gray leaf spot/1193.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a test image
+54967,PlantDoc,PlantDoc-Dataset/train/Corn Gray leaf spot/2015070295153021.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a test image
+54982,PlantDoc,PlantDoc-Dataset/train/Corn Gray leaf spot/gray_leaf_spot__1-14B8612C8B60CDBC8E2.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,train,duplicate of a val image
+54990,PlantDoc,PlantDoc-Dataset/train/Corn Gray leaf spot/corn-gray-leaf-spot-f4.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a test image
+55011,PlantDoc,PlantDoc-Dataset/train/Corn Gray leaf spot/gls99-anamosa.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,near-duplicate with a different label
+55090,PlantDoc,PlantDoc-Dataset/train/Bell_pepper leaf spot/Septoria-leaf-spot.jpg,"Pepper,_bell___Bacterial_spot",,near-duplicate with a different label
+55215,PlantDoc,PlantDoc-Dataset/train/Tomato mold leaf/tylc.jpg,Tomato___Leaf_Mold,,near-duplicate with a different label
+55303,PlantDoc,PlantDoc-Dataset/train/Tomato leaf yellow virus/tylcv-seminar-1-638.jpg,Tomato___Tomato_Yellow_Leaf_Curl_Virus,,duplicate of a test image
+55326,PlantDoc,PlantDoc-Dataset/train/Tomato leaf yellow virus/tomato-yellow-leaf-curl-disease.jpg,Tomato___Tomato_Yellow_Leaf_Curl_Virus,,near-duplicate with a different label
+55327,PlantDoc,PlantDoc-Dataset/train/Tomato leaf yellow virus/Tomato2.jpg,Tomato___Tomato_Yellow_Leaf_Curl_Virus,,near-duplicate with a different label
+55380,PlantDoc,PlantDoc-Dataset/train/Corn rust leaf/Corn-Common-Rust.jpg,Corn_(maize)___Common_rust_,train,duplicate of a custom image
+55396,PlantDoc,PlantDoc-Dataset/train/Corn rust leaf/Corn-Common-Rust-300x225.jpg,Corn_(maize)___Common_rust_,train,duplicate of a custom image
+55421,PlantDoc,PlantDoc-Dataset/train/Corn rust leaf/GetStoredImage?symbolicName=originalX19261YsiteXDTNYcatalogXcatalog%20&category=CMS.jpg,Corn_(maize)___Common_rust_,val,duplicate of a custom image
+55466,PlantDoc,PlantDoc-Dataset/train/Cherry leaf/Cherry-Fruit-and-Leaves-tp1263.jpg,Cherry_(including_sour)___healthy,,duplicate of a val image
+55891,PlantDoc,PlantDoc-Dataset/train/Tomato leaf mosaic virus/ab40cce958c60d8b6e0ec2e4fdb8f526.jpg,Tomato___Tomato_mosaic_virus,,near-duplicate with a different label
+55948,PlantDoc,PlantDoc-Dataset/train/Tomato Septoria leaf spot/20809116-standard.jpg,Tomato___Septoria_leaf_spot,,near-duplicate with a different label
+55976,PlantDoc,PlantDoc-Dataset/train/Tomato Septoria leaf spot/tomato-blight-treatment-blight.jpg,Tomato___Septoria_leaf_spot,,near-duplicate with a different label
+55980,PlantDoc,PlantDoc-Dataset/train/Tomato Septoria leaf spot/early-blight-septoria-ls-fig-3.jpg,Tomato___Septoria_leaf_spot,,duplicate of a test image
+55984,PlantDoc,PlantDoc-Dataset/train/Tomato Septoria leaf spot/Sept9-300x225.jpg,Tomato___Septoria_leaf_spot,,near-duplicate with a different label
+55998,PlantDoc,PlantDoc-Dataset/train/Tomato Septoria leaf spot/b54d0e40027ff5e90e8ba7e1e9abf9bd.jpg,Tomato___Septoria_leaf_spot,,near-duplicate with a different label
+56005,PlantDoc,PlantDoc-Dataset/train/Tomato Septoria leaf spot/MPC105550.jpg.rendition.largest.550.jpg,Tomato___Septoria_leaf_spot,,near-duplicate with a different label
+56010,PlantDoc,PlantDoc-Dataset/train/Tomato Septoria leaf spot/tomato_V8.jpg,Tomato___Septoria_leaf_spot,,duplicate of a test image
+56042,PlantDoc,PlantDoc-Dataset/train/Tomato Septoria leaf spot/Tomato%20bacterial%20spot%20closeup-050S.JPG.jpg,Tomato___Septoria_leaf_spot,,near-duplicate with a different label
+56065,PlantDoc,PlantDoc-Dataset/train/Tomato Septoria leaf spot/caf212ccf4696675469a0beaa9e57213.jpg,Tomato___Septoria_leaf_spot,,near-duplicate with a different label
+56132,PlantDoc,PlantDoc-Dataset/train/Tomato leaf bacterial spot/FS547-4-big.jpg,Tomato___Bacterial_spot,,near-duplicate with a different label
+56150,PlantDoc,PlantDoc-Dataset/train/Tomato leaf bacterial spot/RyBx7MH.jpg,Tomato___Bacterial_spot,,near-duplicate with a different label
+56194,PlantDoc,PlantDoc-Dataset/train/Tomato leaf bacterial spot/leaf-spot3-big.jpg,Tomato___Bacterial_spot,,near-duplicate with a different label
+56210,PlantDoc,PlantDoc-Dataset/train/Tomato leaf bacterial spot/bacterial-canker3x2400-2ia1kgd.jpg,Tomato___Bacterial_spot,,duplicate of a test image
+56232,PlantDoc,PlantDoc-Dataset/train/Apple Scab Leaf/AppleScab03.jpg,Apple___Apple_scab,train,duplicate of a custom image
+56342,PlantDoc,PlantDoc-Dataset/train/Apple rust leaf/Apple_Scab164.jpg,Apple___Cedar_apple_rust,,near-duplicate with a different label
+56353,PlantDoc,PlantDoc-Dataset/train/Apple rust leaf/apples_black-rot_01_zoom.jpg,Apple___Cedar_apple_rust,train,duplicate of a custom image
+56389,PlantDoc,PlantDoc-Dataset/train/Tomato Early blight leaf/tomatoblight.jpg,Tomato___Early_blight,,near-duplicate with a different label
+56393,PlantDoc,PlantDoc-Dataset/train/Tomato Early blight leaf/EBTomato.jpg,Tomato___Early_blight,,near-duplicate with a different label
+56401,PlantDoc,PlantDoc-Dataset/train/Tomato Early blight leaf/Early_Blight_of_Tomato1687.jpg,Tomato___Early_blight,,near-duplicate with a different label
+56402,PlantDoc,PlantDoc-Dataset/train/Tomato Early blight leaf/p1020084s.jpg,Tomato___Early_blight,,near-duplicate with a different label
+56417,PlantDoc,PlantDoc-Dataset/train/Tomato Early blight leaf/early-blight-closeup-sm.jpg,Tomato___Early_blight,,near-duplicate with a different label
+56423,PlantDoc,PlantDoc-Dataset/train/Tomato Early blight leaf/early_blight_spots_l.jpg,Tomato___Early_blight,,near-duplicate with a different label
+56434,PlantDoc,PlantDoc-Dataset/train/Tomato Early blight leaf/MPC105550.jpg.rendition.largest.ss.jpg,Tomato___Early_blight,,near-duplicate with a different label
+56454,PlantDoc,PlantDoc-Dataset/train/Tomato Early blight leaf/earlyblightpotato.jpg,Tomato___Early_blight,,duplicate of a test image
+56462,PlantDoc,PlantDoc-Dataset/train/Tomato Early blight leaf/b54d0e40027ff5e90e8ba7e1e9abf9bd--garden-guide-garden-ideas.jpg,Tomato___Early_blight,,near-duplicate with a different label
+56465,PlantDoc,PlantDoc-Dataset/train/Tomato Early blight leaf/126689-004-D622CD2F.jpg,Tomato___Early_blight,,near-duplicate with a different label
+56478,PlantDoc,PlantDoc-Dataset/train/Potato leaf late blight/backus-056-potato-blight.jpg,Potato___Late_blight,,duplicate of a test image
+56483,PlantDoc,PlantDoc-Dataset/train/Potato leaf late blight/Late+blight+on+potato.jpg,Potato___Late_blight,,near-duplicate with a different label
+56521,PlantDoc,PlantDoc-Dataset/train/Potato leaf late blight/14321627273_58d893c3e2_b.jpg,Potato___Late_blight,,near-duplicate with a different label
+56529,PlantDoc,PlantDoc-Dataset/train/Potato leaf late blight/Symptom_potato_late_blight.jpg,Potato___Late_blight,,near-duplicate with a different label
+56532,PlantDoc,PlantDoc-Dataset/train/Potato leaf late blight/24064_1.jpg,Potato___Late_blight,,near-duplicate with a different label
+56543,PlantDoc,PlantDoc-Dataset/train/Potato leaf late blight/Jessore-potato-late-blight-8-2h2fdkl.jpg,Potato___Late_blight,,near-duplicate with a different label
+56554,PlantDoc,PlantDoc-Dataset/train/Potato leaf late blight/IMG_5813-1024x768.jpg,Potato___Late_blight,,near-duplicate with a different label
+56658,PlantDoc,PlantDoc-Dataset/train/Blueberry leaf/blueberry-leaves-normal-above-and-iron-deficient-below-bgahf8.jpg,Blueberry___healthy,,duplicate of a test image
+56673,PlantDoc,PlantDoc-Dataset/train/Tomato leaf late blight/tomato_late-blight_04_zoom.jpg,Tomato___Late_blight,,near-duplicate with a different label
+56678,PlantDoc,PlantDoc-Dataset/train/Tomato leaf late blight/LBleaf2INIA_0.jpg,Tomato___Late_blight,,near-duplicate with a different label
+56721,PlantDoc,PlantDoc-Dataset/train/Tomato leaf late blight/tomato-late-blight-foliar-lesions_Scot-Nelson_CC-BY-SA-2.0.jpg,Tomato___Late_blight,,duplicate of a test image
+56727,PlantDoc,PlantDoc-Dataset/train/Tomato leaf late blight/IMG_5813.jpg,Tomato___Late_blight,,near-duplicate with a different label
+56731,PlantDoc,PlantDoc-Dataset/train/Tomato leaf late blight/Pest2369.jpg,Tomato___Late_blight,,near-duplicate with a different label
+56736,PlantDoc,PlantDoc-Dataset/train/Tomato leaf late blight/late_blight1.jpg,Tomato___Late_blight,,duplicate of a test image
+56749,PlantDoc,PlantDoc-Dataset/train/Tomato leaf late blight/a7710b5901ba1f8e9759ef7576cd9f09.jpg,Tomato___Late_blight,,near-duplicate with a different label
+56754,PlantDoc,PlantDoc-Dataset/train/Tomato leaf late blight/symptoms_of_late_blight_0.jpg,Tomato___Late_blight,,near-duplicate with a different label
+56784,PlantDoc,PlantDoc-Dataset/train/Potato leaf early blight/Early_Blight_of_Tomato177.jpg,Potato___Early_blight,,near-duplicate with a different label
+56788,PlantDoc,PlantDoc-Dataset/train/Potato leaf early blight/pe-mi-lateblightleaf.jpg,Potato___Early_blight,,near-duplicate with a different label
+56798,PlantDoc,PlantDoc-Dataset/train/Potato leaf early blight/45035_1.jpg,Potato___Early_blight,,near-duplicate with a different label
+56800,PlantDoc,PlantDoc-Dataset/train/Potato leaf early blight/5816740026_d42ef24413_Phytophthora-Infestans.jpg,Potato___Early_blight,,duplicate of a test image
+56801,PlantDoc,PlantDoc-Dataset/train/Potato leaf early blight/early-blight-closeup-NCSU.jpg,Potato___Early_blight,,near-duplicate with a different label
+56804,PlantDoc,PlantDoc-Dataset/train/Potato leaf early blight/backus-045-potato-blight.jpg,Potato___Early_blight,,near-duplicate with a different label
+56812,PlantDoc,PlantDoc-Dataset/train/Potato leaf early blight/2OBH_29_Gardening_early_blight.jpg,Potato___Early_blight,,near-duplicate with a different label
+56824,PlantDoc,PlantDoc-Dataset/train/Potato leaf early blight/14321627273_58d893c3e2_potato-plant.jpg,Potato___Early_blight,,near-duplicate with a different label
+56827,PlantDoc,PlantDoc-Dataset/train/Potato leaf early blight/IMG_9055.JPG.jpg,Potato___Early_blight,,near-duplicate with a different label
+56840,PlantDoc,PlantDoc-Dataset/train/Potato leaf early blight/1421_0.jpeg?itok=FMtmgePj.jpg,Potato___Early_blight,,duplicate of a test image
+56847,PlantDoc,PlantDoc-Dataset/train/Potato leaf early blight/36-early-blight-concentric-rings.jpg,Potato___Early_blight,,near-duplicate with a different label
+56849,PlantDoc,PlantDoc-Dataset/train/Potato leaf early blight/5688742112_147f33b89d_Phytophthora-Infestans.jpg,Potato___Early_blight,,near-duplicate with a different label
+56853,PlantDoc,PlantDoc-Dataset/train/Potato leaf early blight/Early-Blight-Leaves-56a348bf3df78cf7727cb35e.jpg,Potato___Early_blight,,near-duplicate with a different label
+56855,PlantDoc,PlantDoc-Dataset/train/Potato leaf early blight/18028_1.jpg,Potato___Early_blight,,near-duplicate with a different label
+56861,PlantDoc,PlantDoc-Dataset/train/Potato leaf early blight/irish-blight-symptoms-on-potato-leaves-atmf8b.jpg,Potato___Early_blight,,duplicate of a test image
+56864,PlantDoc,PlantDoc-Dataset/train/Potato leaf early blight/Blght.jpg,Potato___Early_blight,,near-duplicate with a different label
+57125,Corn,Gray_Leaf_Spot/11.jpeg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,val,duplicate of a test image
+57145,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-1026-_JPG.rf.d16775eb790744bc019899a530511209.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a test image
+57172,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-1096-_JPG.rf.45a8b812ae327468f10281481e65d1f5.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a test image
+57183,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-1125-_JPG.rf.24db343fa7f53e4f26926eff231e38f4.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a test image
+57200,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-1209-_JPG.rf.81a4921459f689dfb93c0af272369d34.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a test image
+57228,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-1334-_jpg.rf.a7436a23a55bc0a06e2c7c2fb5f82d35.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a test image
+57246,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-1392-_JPG.rf.4c8fb19fa2680f1d8bb1e33a11ba491c.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a test image
+57258,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-1418-_JPG.rf.e68e3ecfd96cfe49597c6442a59addd8.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a test image
+57261,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-1420-_JPG.rf.1a32172c8c764d8437b2ce1368269f45.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a val image
+57269,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-1431-_JPG.rf.4df6cfb0c0a6960e9a3adfae6dc89a69.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a val image
+57282,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-1464-_JPG.rf.6fe0581caa7982224c726f95dc996a2e.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a val image
+57294,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-1528-_JPG.rf.32973fa62f5e70f746a3e629f395a607.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a val image
+57301,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-1547-_JPG.rf.f483e1ec42f9a29511031d35e9228976.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a val image
+57365,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-170-_JPG.rf.bc259b67bd7228e235dbd773462544b9.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a test image
+57366,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-1700-_JPG.rf.5929b4912c42aa9533f81d0cc7637a2a.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a test image
+57370,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-179-_jpg.rf.845f2833ab3712e40234de12168be1c9.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a test image
+57380,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-20-_jpg.rf.ef1bd314c60af20cd304e84bda42cd33.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,train,duplicate of a test image
+57389,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-255-_JPG.rf.9565a58f34872d047dca621809002e9d.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a test image
+57390,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-266-_JPG.rf.e4ab33085cb60f9c6ee5f9aaacaa929a.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a val image
+57394,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-289-_JPG.rf.59ed4c99aaf07679a91f71aec1157c41.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a val image
+57411,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-379-_JPG.rf.5eded4524c06fa48dfed9f02139cc03b.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a val image
+57415,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-404-_JPG.rf.207c53092d33bad4f17259f7eb2e99ac.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a val image
+57425,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-43-_jpg.rf.88ce821b01a8a99e0d5f66955f7ed886.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,train,duplicate of a val image
+57428,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-436-_jpg.rf.5634df9e9b8d1667126fce33d8f0a8e2.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a val image
+57431,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-451-_JPG.rf.eaeb3bf37cdb6bd3d5fbb8243800463e.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a test image
+57441,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-480-_JPG.rf.96374959aa141bf55d26a683bbdc464d.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a val image
+57453,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-533-_JPG.rf.974bd6e68c6de7a347065fc15b774946.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a test image
+57455,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-536-_JPG.rf.2ec92ac912d17d103e16acaae1d94bdc.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a test image
+57466,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-585-_JPG.rf.f7549032d9007fb8e8617de84bea85da.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a test image
+57467,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-589-_JPG.rf.a3b599895a9dca9f40927b5d093d551a.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a val image
+57477,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-625-_JPG.rf.94a028c314688bb12d0c9e04f264c2bb.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a test image
+57483,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-645-_JPG.rf.707fe7daa2c40033f1ce81d66ab9a836.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a test image
+57486,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-653-_JPG.rf.795b830e1c7c53beacbbc9548bbbd447.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a test image
+57502,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-707-_JPG.rf.962ed62feaa39d746675e6c46e831ef1.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a test image
+57503,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-712-_JPG.rf.ce0e96fe2052a67006c3a08f876ccbaf.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a test image
+57522,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-815-_JPG.rf.0384f91d6055ec1969585cc2a3f98f4d.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a val image
+57526,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-826-_JPG.rf.401a4679fb77bcf9c13ad269503346bb.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a val image
+57528,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-830-_JPG.rf.0a670ca057589d34aced0705fd273fdf.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a val image
+57534,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-856-_JPG.rf.8eae87c090de9265fb7e9a4dc3958b74.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a val image
+57549,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-900-_JPG.rf.e56eb241f1c3d47e40c4107a17eafe9b.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a test image
+57556,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-919-_JPG.rf.d35627a599763ab9f34fe6ae0f818deb.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a val image
+57572,Corn,Gray_Leaf_Spot/Corn-Gray-leaf-spot-989-_JPG.rf.ef83de6b6c58b166995b7026e63aebf3.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a test image
+57580,Corn,Gray_Leaf_Spot/Corn_Gray_Spot-132-_jpg.rf.5f4507438e7698cfea0608a0d557ef12.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a test image
+57583,Corn,Gray_Leaf_Spot/Corn_Gray_Spot-144-_JPG.rf.d06392750e86caf02e69a91983708201.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a val image
+57590,Corn,Gray_Leaf_Spot/Corn_Gray_Spot-210-_JPG.rf.b8af82c59b24e00514a8ad6cd0c578a5.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a test image
+57591,Corn,Gray_Leaf_Spot/Corn_Gray_Spot-216-_jpg.rf.fb5cc2aec5f830a50e1d15208e04bdfb.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a test image
+57592,Corn,Gray_Leaf_Spot/Corn_Gray_Spot-220-_JPG.rf.29f16993b5d1cde698539e222fa3c31d.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a val image
+57596,Corn,Gray_Leaf_Spot/Corn_Gray_Spot-247-_JPG.rf.dbdc57bf993dd01b54d1aba42e46dd83.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a val image
+57597,Corn,Gray_Leaf_Spot/Corn_Gray_Spot-249-_JPG.rf.d7a6901a57a5a7e98e32085a7d1b3103.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a test image
+57598,Corn,Gray_Leaf_Spot/Corn_Gray_Spot-255-_jpg.rf.23d247e03b3a35421cacea571f55d4a8.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a val image
+57599,Corn,Gray_Leaf_Spot/Corn_Gray_Spot-260-_JPG.rf.0c416e97d5820154a5a91b5188d67577.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a val image
+57604,Corn,Gray_Leaf_Spot/Corn_Gray_Spot-313-_JPG.rf.0b8e97f8a8d306f554271a02b2f5b3b1.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a test image
+57605,Corn,Gray_Leaf_Spot/Corn_Gray_Spot-323-_JPG.rf.4794bbb800e9e398f263b9d29ffc63db.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a test image
+57607,Corn,Gray_Leaf_Spot/Corn_Gray_Spot-357-_jpg.rf.ae9f99342e2b3bc467fcec986a617924.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a test image
+57613,Corn,Gray_Leaf_Spot/Corn_Gray_Spot-488-_JPG.rf.ba0889ecbb189af601a2b5cdce642d9e.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a test image
+57617,Corn,Gray_Leaf_Spot/Corn_Gray_Spot-515-_JPG.rf.559096b2b141b5448baf59b24c12d7f0.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a val image
+57618,Corn,Gray_Leaf_Spot/Corn_Gray_Spot-535-_JPG.rf.0579d94289c024d66f6116cf59615f09.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a val image
+57619,Corn,Gray_Leaf_Spot/Corn_Gray_Spot-545-_JPG.rf.f2be91b6bd364c283b2d28af8d48ffb9.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a val image
+57741,Corn,Gray_Leaf_Spot/gray.jpeg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,train,duplicate of a test image
+57749,Corn,Healthy/6393.jpeg,Corn_(maize)___healthy,train,duplicate of a test image
+57999,Corn,Healthy/corn-leaves.jpg,Corn_(maize)___healthy,,exact duplicate
+58000,Corn,Healthy/green-corn-leaf-natural-background-600nw-2095994791.jpg,Corn_(maize)___healthy,,exact duplicate
+58008,Corn,Healthy/istockphoto-695264984.jpg,Corn_(maize)___healthy,,exact duplicate
+58019,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Healthy/20230712_121645.jpg,Potato___healthy,,exact duplicate
+58340,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/20230802_125541.jpg,Potato___Late_blight,val,duplicate of a test image
+58367,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/IMG_0261 - Copy.JPG,Potato___Late_blight,,duplicate of a test image
+58434,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/IMG_0390.JPG,Potato___Late_blight,,exact duplicate
+58473,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/IMG_4815.JPG,Potato___Late_blight,,exact duplicate
+58490,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/IMG_9425.JPG,Potato___Late_blight,,exact duplicate
+58492,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/IMG_9426.JPG,Potato___Late_blight,,exact duplicate
+58494,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/IMG_9430.JPG,Potato___Late_blight,,exact duplicate
+58496,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/IMG_9439.JPG,Potato___Late_blight,,duplicate of a test image
+58497,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/IMG_9440 (1).JPG,Potato___Late_blight,train,duplicate of a test image
+58498,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/IMG_9440.JPG,Potato___Late_blight,,duplicate of a test image
+58500,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/IMG_9443.JPG,Potato___Late_blight,,duplicate of a val image
+58502,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/IMG_9463.JPG,Potato___Late_blight,,duplicate of a val image
+58504,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/IMG_9464.JPG,Potato___Late_blight,,exact duplicate
+58506,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/IMG_9506.JPG,Potato___Late_blight,,exact duplicate
+58508,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/IMG_9508.JPG,Potato___Late_blight,,exact duplicate
+58510,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/IMG_9509.JPG,Potato___Late_blight,,duplicate of a val image
+58512,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/IMG_9510.JPG,Potato___Late_blight,,exact duplicate
+58514,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/IMG_9511.JPG,Potato___Late_blight,,exact duplicate
+58516,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/IMG_9512.JPG,Potato___Late_blight,,exact duplicate
+58518,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/IMG_9514.JPG,Potato___Late_blight,,exact duplicate
+58520,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/IMG_9517.JPG,Potato___Late_blight,,duplicate of a val image
+58522,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/IMG_9518.JPG,Potato___Late_blight,,duplicate of a test image
+58524,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/IMG_9519.JPG,Potato___Late_blight,,exact duplicate
+58526,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/IMG_9520.JPG,Potato___Late_blight,,exact duplicate
+58528,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/IMG_9523.JPG,Potato___Late_blight,,duplicate of a test image
+58530,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/IMG_9524.JPG,Potato___Late_blight,,duplicate of a val image
+58533,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/IMG_9526.JPG,Potato___Late_blight,,duplicate of a test image
+58535,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/IMG_9531.JPG,Potato___Late_blight,,exact duplicate
+58537,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/IMG_9534.JPG,Potato___Late_blight,,exact duplicate
+58539,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/IMG_9535.JPG,Potato___Late_blight,,exact duplicate
+58541,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/IMG_9536.JPG,Potato___Late_blight,,exact duplicate
+58543,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/IMG_9537.JPG,Potato___Late_blight,,exact duplicate
+58545,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/IMG_9538.JPG,Potato___Late_blight,,exact duplicate
+58547,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/IMG_9539.JPG,Potato___Late_blight,,exact duplicate
+58549,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/IMG_9540.JPG,Potato___Late_blight,,exact duplicate
+58551,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/IMG_9560.JPG,Potato___Late_blight,,exact duplicate
+58553,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/IMG_9561.JPG,Potato___Late_blight,,exact duplicate
+58555,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/IMG_9565.JPG,Potato___Late_blight,,duplicate of a val image
+58557,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/IMG_9566.JPG,Potato___Late_blight,,duplicate of a test image
+58559,Potato,Potato Leaf Disease Dataset in Uncontrolled Environment/Phytopthora/IMG_9567.JPG,Potato___Late_blight,,exact duplicate
+58563,TomatoVillage,Variant-a(Multiclass Classification)/test/Early_blight/IMG20220323102851_4.jpg,Tomato___Early_blight,,extra copy in val/test
+58568,TomatoVillage,Variant-a(Multiclass Classification)/test/Early_blight/IMG20220323125626_2.jpg,Tomato___Early_blight,,extra copy in val/test
+58572,TomatoVillage,Variant-a(Multiclass Classification)/test/Early_blight/IMG20220323132208_2.jpg,Tomato___Early_blight,,extra copy in val/test
+58573,TomatoVillage,Variant-a(Multiclass Classification)/test/Early_blight/IMG20220323132208_3.jpg,Tomato___Early_blight,,extra copy in val/test
+58576,TomatoVillage,Variant-a(Multiclass Classification)/test/Early_blight/IMG20220323183239_4.jpg,Tomato___Early_blight,,extra copy in val/test
+58577,TomatoVillage,Variant-a(Multiclass Classification)/test/Early_blight/IMG20220323183239_6.jpg,Tomato___Early_blight,,extra copy in val/test
+58580,TomatoVillage,Variant-a(Multiclass Classification)/test/Early_blight/IMG20220324114755_1.jpg,Tomato___Early_blight,,extra copy in val/test
+58581,TomatoVillage,Variant-a(Multiclass Classification)/test/Early_blight/IMG20220324115257_4.jpg,Tomato___Early_blight,,extra copy in val/test
+58584,TomatoVillage,Variant-a(Multiclass Classification)/test/Early_blight/IMG20220324122015_4.jpg,Tomato___Early_blight,,extra copy in val/test
+58585,TomatoVillage,Variant-a(Multiclass Classification)/test/Early_blight/IMG20220324122018_5.jpg,Tomato___Early_blight,,extra copy in val/test
+58587,TomatoVillage,Variant-a(Multiclass Classification)/test/Early_blight/IMG20220324175323_3.jpg,Tomato___Early_blight,,extra copy in val/test
+58588,TomatoVillage,Variant-a(Multiclass Classification)/test/Early_blight/IMG20220324175323_6.jpg,Tomato___Early_blight,,extra copy in val/test
+58591,TomatoVillage,Variant-a(Multiclass Classification)/test/Early_blight/IMG20220324180120_3.jpg,Tomato___Early_blight,,extra copy in val/test
+58596,TomatoVillage,Variant-a(Multiclass Classification)/test/Early_blight/IMG20220324182728_4.jpg,Tomato___Early_blight,,extra copy in val/test
+58597,TomatoVillage,Variant-a(Multiclass Classification)/test/Early_blight/IMG20220324182732_1.jpg,Tomato___Early_blight,,extra copy in val/test
+58598,TomatoVillage,Variant-a(Multiclass Classification)/test/Early_blight/IMG20220324182732_2.jpg,Tomato___Early_blight,,extra copy in val/test
+58601,TomatoVillage,Variant-a(Multiclass Classification)/test/Early_blight/IMG20220324184129_2.jpg,Tomato___Early_blight,,extra copy in val/test
+58603,TomatoVillage,Variant-a(Multiclass Classification)/test/Early_blight/IMG20220325114801_6.jpg,Tomato___Early_blight,,extra copy in val/test
+58604,TomatoVillage,Variant-a(Multiclass Classification)/test/Early_blight/IMG20220325120823_1.jpg,Tomato___Early_blight,,near-duplicate with a different label
+58605,TomatoVillage,Variant-a(Multiclass Classification)/test/Early_blight/IMG20220325120823_4.jpg,Tomato___Early_blight,,near-duplicate with a different label
+58609,TomatoVillage,Variant-a(Multiclass Classification)/test/Early_blight/IMG20220325135503_2.jpg,Tomato___Early_blight,,extra copy in val/test
+58632,TomatoVillage,Variant-a(Multiclass Classification)/test/Late_blight/IMG20220323110731_4.jpg,Tomato___Late_blight,,extra copy in val/test
+58637,TomatoVillage,Variant-a(Multiclass Classification)/test/Late_blight/IMG20220323123120_2.jpg,Tomato___Late_blight,,extra copy in val/test
+58638,TomatoVillage,Variant-a(Multiclass Classification)/test/Late_blight/IMG20220323123120_4.jpg,Tomato___Late_blight,,extra copy in val/test
+58639,TomatoVillage,Variant-a(Multiclass Classification)/test/Late_blight/IMG20220323124538_1.jpg,Tomato___Late_blight,,extra copy in val/test
+58648,TomatoVillage,Variant-a(Multiclass Classification)/test/Late_blight/IMG20220323181127_2.jpg,Tomato___Late_blight,,extra copy in val/test
+58650,TomatoVillage,Variant-a(Multiclass Classification)/test/Late_blight/IMG20220323181703_7.jpg,Tomato___Late_blight,,extra copy in val/test
+58651,TomatoVillage,Variant-a(Multiclass Classification)/test/Late_blight/IMG20220323181928_3.jpg,Tomato___Late_blight,,extra copy in val/test
+58652,TomatoVillage,Variant-a(Multiclass Classification)/test/Late_blight/IMG20220323182317_3.jpg,Tomato___Late_blight,,extra copy in val/test
+58653,TomatoVillage,Variant-a(Multiclass Classification)/test/Late_blight/IMG20220323182317_6.jpg,Tomato___Late_blight,,extra copy in val/test
+58654,TomatoVillage,Variant-a(Multiclass Classification)/test/Late_blight/IMG20220323183710_1.jpg,Tomato___Late_blight,,extra copy in val/test
+58658,TomatoVillage,Variant-a(Multiclass Classification)/test/Late_blight/IMG20220324104734_1.jpg,Tomato___Late_blight,,extra copy in val/test
+58667,TomatoVillage,Variant-a(Multiclass Classification)/test/Late_blight/IMG20220324105933_3.jpg,Tomato___Late_blight,,extra copy in val/test
+58669,TomatoVillage,Variant-a(Multiclass Classification)/test/Late_blight/IMG20220324111719_7.jpg,Tomato___Late_blight,,extra copy in val/test
+58674,TomatoVillage,Variant-a(Multiclass Classification)/test/Late_blight/IMG20220324121405_2.jpg,Tomato___Late_blight,,extra copy in val/test
+58676,TomatoVillage,Variant-a(Multiclass Classification)/test/Late_blight/IMG20220324121427_2.jpg,Tomato___Late_blight,,extra copy in val/test
+58694,TomatoVillage,Variant-a(Multiclass Classification)/test/Late_blight/IMG20220325110723_4.jpg,Tomato___Late_blight,,extra copy in val/test
+58698,TomatoVillage,Variant-a(Multiclass Classification)/test/Late_blight/IMG20220325111332_1.jpg,Tomato___Late_blight,,extra copy in val/test
+58699,TomatoVillage,Variant-a(Multiclass Classification)/test/Late_blight/IMG20220325111332_3.jpg,Tomato___Late_blight,,extra copy in val/test
+58701,TomatoVillage,Variant-a(Multiclass Classification)/test/Late_blight/IMG20220325111400_5.jpg,Tomato___Late_blight,,extra copy in val/test
+58702,TomatoVillage,Variant-a(Multiclass Classification)/test/Late_blight/IMG20220325111403_3.jpg,Tomato___Late_blight,,extra copy in val/test
+58703,TomatoVillage,Variant-a(Multiclass Classification)/test/Late_blight/IMG20220325111408_7.jpg,Tomato___Late_blight,,extra copy in val/test
+58717,TomatoVillage,Variant-a(Multiclass Classification)/test/Late_blight/IMG20220325135513_4.jpg,Tomato___Late_blight,,extra copy in val/test
+58721,TomatoVillage,Variant-a(Multiclass Classification)/test/Late_blight/IMG20220325142437_7.jpg,Tomato___Late_blight,,extra copy in val/test
+58765,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323102851_1.jpg,Tomato___Early_blight,,extra copy in val/test
+58766,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323102851_2.jpg,Tomato___Early_blight,,extra copy in val/test
+58767,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323102851_3.jpg,Tomato___Early_blight,,extra copy in val/test
+58768,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323102851_5.jpg,Tomato___Early_blight,,extra copy in val/test
+58769,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323102851_6.jpg,Tomato___Early_blight,,extra copy in val/test
+58770,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323102851_7.jpg,Tomato___Early_blight,,extra copy in val/test
+58815,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323105539.jpg,Tomato___Early_blight,,duplicate of a test image
+58816,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323105539_1.jpg,Tomato___Early_blight,,duplicate of a test image
+58817,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323105539_2.jpg,Tomato___Early_blight,,duplicate of a test image
+58818,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323105539_3.jpg,Tomato___Early_blight,,duplicate of a test image
+58819,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323105539_4.jpg,Tomato___Early_blight,,duplicate of a test image
+58820,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323105539_5.jpg,Tomato___Early_blight,,duplicate of a test image
+58821,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323105539_7.jpg,Tomato___Early_blight,,duplicate of a test image
+58827,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323121804_1.jpg,Tomato___Early_blight,,extra copy in val/test
+58828,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323121804_2.jpg,Tomato___Early_blight,,extra copy in val/test
+58829,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323121804_3.jpg,Tomato___Early_blight,,extra copy in val/test
+58830,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323121804_4.jpg,Tomato___Early_blight,,extra copy in val/test
+58831,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323121804_5.jpg,Tomato___Early_blight,,extra copy in val/test
+58832,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323121804_6.jpg,Tomato___Early_blight,,extra copy in val/test
+58833,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323121804_7.jpg,Tomato___Early_blight,,extra copy in val/test
+58835,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323124244_2.jpg,Tomato___Early_blight,,extra copy in val/test
+58836,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323124244_4.jpg,Tomato___Early_blight,,extra copy in val/test
+58837,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323124244_5.jpg,Tomato___Early_blight,,extra copy in val/test
+58838,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323124244_6.jpg,Tomato___Early_blight,,extra copy in val/test
+58839,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323124244_7.jpg,Tomato___Early_blight,,extra copy in val/test
+58853,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323125626_1.jpg,Tomato___Early_blight,,extra copy in val/test
+58854,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323125626_3.jpg,Tomato___Early_blight,,extra copy in val/test
+58855,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323125626_4.jpg,Tomato___Early_blight,,extra copy in val/test
+58856,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323125626_5.jpg,Tomato___Early_blight,,extra copy in val/test
+58857,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323125626_6.jpg,Tomato___Early_blight,,extra copy in val/test
+58858,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323125626_7.jpg,Tomato___Early_blight,,extra copy in val/test
+58865,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323132208_1.jpg,Tomato___Early_blight,,extra copy in val/test
+58866,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323132208_4.jpg,Tomato___Early_blight,,extra copy in val/test
+58867,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323132208_5.jpg,Tomato___Early_blight,,extra copy in val/test
+58868,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323132208_6.jpg,Tomato___Early_blight,,extra copy in val/test
+58869,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323132208_7.jpg,Tomato___Early_blight,,extra copy in val/test
+58877,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323183239_1.jpg,Tomato___Early_blight,,extra copy in val/test
+58878,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323183239_2.jpg,Tomato___Early_blight,,extra copy in val/test
+58879,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323183239_3.jpg,Tomato___Early_blight,,extra copy in val/test
+58880,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323183239_5.jpg,Tomato___Early_blight,,extra copy in val/test
+58881,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323183239_7.jpg,Tomato___Early_blight,,extra copy in val/test
+58882,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323183452_1.jpg,Tomato___Early_blight,,extra copy in val/test
+58883,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323183452_2.jpg,Tomato___Early_blight,,extra copy in val/test
+58884,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323183452_3.jpg,Tomato___Early_blight,,extra copy in val/test
+58885,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323183452_4.jpg,Tomato___Early_blight,,extra copy in val/test
+58886,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323183452_5.jpg,Tomato___Early_blight,,extra copy in val/test
+58887,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323183452_6.jpg,Tomato___Early_blight,,extra copy in val/test
+58888,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220323183452_7.jpg,Tomato___Early_blight,,extra copy in val/test
+58931,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220324114755_2.jpg,Tomato___Early_blight,,extra copy in val/test
+58932,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220324114755_3.jpg,Tomato___Early_blight,,extra copy in val/test
+58933,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220324114755_6.jpg,Tomato___Early_blight,,extra copy in val/test
+58934,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220324114755_7.jpg,Tomato___Early_blight,,extra copy in val/test
+58939,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220324115257_1.jpg,Tomato___Early_blight,,extra copy in val/test
+58940,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220324115257_2.jpg,Tomato___Early_blight,,extra copy in val/test
+58941,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220324115257_5.jpg,Tomato___Early_blight,,extra copy in val/test
+58942,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220324115257_6.jpg,Tomato___Early_blight,,extra copy in val/test
+58953,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220324122015_2.jpg,Tomato___Early_blight,,extra copy in val/test
+58954,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220324122015_3.jpg,Tomato___Early_blight,,extra copy in val/test
+58955,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220324122015_6.jpg,Tomato___Early_blight,,extra copy in val/test
+58956,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220324122015_7.jpg,Tomato___Early_blight,,extra copy in val/test
+58958,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220324122018_1.jpg,Tomato___Early_blight,,extra copy in val/test
+58959,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220324122018_2.jpg,Tomato___Early_blight,,extra copy in val/test
+58960,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220324122018_3.jpg,Tomato___Early_blight,,extra copy in val/test
+58961,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220324122018_4.jpg,Tomato___Early_blight,,extra copy in val/test
+58962,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220324122018_7.jpg,Tomato___Early_blight,,extra copy in val/test
+58969,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220324175323_1.jpg,Tomato___Early_blight,,extra copy in val/test
+58970,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220324175323_2.jpg,Tomato___Early_blight,,extra copy in val/test
+58971,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220324175323_4.jpg,Tomato___Early_blight,,extra copy in val/test
+58972,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220324175323_5.jpg,Tomato___Early_blight,,extra copy in val/test
+58973,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220324175323_7.jpg,Tomato___Early_blight,,extra copy in val/test
+58985,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220324180120_1.jpg,Tomato___Early_blight,,extra copy in val/test
+58986,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220324180120_4.jpg,Tomato___Early_blight,,extra copy in val/test
+58987,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220324180120_5.jpg,Tomato___Early_blight,,extra copy in val/test
+58988,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220324180120_6.jpg,Tomato___Early_blight,,extra copy in val/test
+58989,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220324180120_7.jpg,Tomato___Early_blight,,extra copy in val/test
+59014,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220324182728_1.jpg,Tomato___Early_blight,,extra copy in val/test
+59015,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220324182728_2.jpg,Tomato___Early_blight,,extra copy in val/test
+59016,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220324182728_3.jpg,Tomato___Early_blight,,extra copy in val/test
+59017,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220324182728_5.jpg,Tomato___Early_blight,,extra copy in val/test
+59018,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220324182728_6.jpg,Tomato___Early_blight,,extra copy in val/test
+59019,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220324182732_4.jpg,Tomato___Early_blight,,extra copy in val/test
+59020,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220324182732_5.jpg,Tomato___Early_blight,,extra copy in val/test
+59026,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220324184129_1.jpg,Tomato___Early_blight,,extra copy in val/test
+59027,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220324184129_3.jpg,Tomato___Early_blight,,extra copy in val/test
+59028,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220324184129_5.jpg,Tomato___Early_blight,,extra copy in val/test
+59029,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220324184129_7.jpg,Tomato___Early_blight,,extra copy in val/test
+59042,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220325114801_1.jpg,Tomato___Early_blight,,extra copy in val/test
+59043,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220325114801_2.jpg,Tomato___Early_blight,,extra copy in val/test
+59044,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220325114801_4.jpg,Tomato___Early_blight,,extra copy in val/test
+59045,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220325114801_5.jpg,Tomato___Early_blight,,extra copy in val/test
+59046,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220325114801_7.jpg,Tomato___Early_blight,,extra copy in val/test
+59047,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220325120823.jpg,Tomato___Early_blight,,near-duplicate with a different label
+59048,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220325120823_5.jpg,Tomato___Early_blight,,near-duplicate with a different label
+59049,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220325120823_6.jpg,Tomato___Early_blight,,near-duplicate with a different label
+59050,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220325120823_7.jpg,Tomato___Early_blight,,near-duplicate with a different label
+59061,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220325135503_1.jpg,Tomato___Early_blight,,extra copy in val/test
+59062,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220325135503_3.jpg,Tomato___Early_blight,,extra copy in val/test
+59063,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220325135503_5.jpg,Tomato___Early_blight,,extra copy in val/test
+59064,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220325135503_7.jpg,Tomato___Early_blight,,extra copy in val/test
+59066,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220325140013_1.jpg,Tomato___Early_blight,,extra copy in val/test
+59067,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220325140013_3.jpg,Tomato___Early_blight,,extra copy in val/test
+59068,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220325140013_4.jpg,Tomato___Early_blight,,extra copy in val/test
+59069,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220325140013_5.jpg,Tomato___Early_blight,,extra copy in val/test
+59070,TomatoVillage,Variant-a(Multiclass Classification)/train/Early_blight/IMG20220325140013_6.jpg,Tomato___Early_blight,,extra copy in val/test
+59086,TomatoVillage,Variant-a(Multiclass Classification)/train/Healthy/IMG20220324110810.jpg,Tomato___healthy,,extra copy in val/test
+59158,TomatoVillage,Variant-a(Multiclass Classification)/train/Healthy/IMG20220325114117.jpg,Tomato___healthy,,extra copy in val/test
+59230,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323110731_1.jpg,Tomato___Late_blight,,extra copy in val/test
+59231,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323110731_2.jpg,Tomato___Late_blight,,extra copy in val/test
+59232,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323110731_3.jpg,Tomato___Late_blight,,extra copy in val/test
+59233,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323110731_5.jpg,Tomato___Late_blight,,extra copy in val/test
+59234,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323110731_6.jpg,Tomato___Late_blight,,extra copy in val/test
+59235,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323110731_7.jpg,Tomato___Late_blight,,extra copy in val/test
+59262,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323122907_2.jpg,Tomato___Late_blight,,extra copy in val/test
+59263,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323122907_3.jpg,Tomato___Late_blight,,extra copy in val/test
+59264,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323122907_5.jpg,Tomato___Late_blight,,extra copy in val/test
+59265,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323122907_6.jpg,Tomato___Late_blight,,extra copy in val/test
+59266,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323122907_7.jpg,Tomato___Late_blight,,extra copy in val/test
+59268,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323123120_1.jpg,Tomato___Late_blight,,extra copy in val/test
+59269,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323123120_3.jpg,Tomato___Late_blight,,extra copy in val/test
+59270,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323123120_5.jpg,Tomato___Late_blight,,extra copy in val/test
+59271,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323123120_7.jpg,Tomato___Late_blight,,extra copy in val/test
+59273,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323124538_2.jpg,Tomato___Late_blight,,extra copy in val/test
+59274,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323124538_3.jpg,Tomato___Late_blight,,extra copy in val/test
+59275,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323124538_4.jpg,Tomato___Late_blight,,extra copy in val/test
+59276,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323124538_5.jpg,Tomato___Late_blight,,extra copy in val/test
+59277,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323124538_6.jpg,Tomato___Late_blight,,extra copy in val/test
+59278,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323124538_7.jpg,Tomato___Late_blight,,extra copy in val/test
+59279,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323124549_1.jpg,Tomato___Late_blight,,extra copy in val/test
+59280,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323124549_3.jpg,Tomato___Late_blight,,extra copy in val/test
+59281,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323124549_4.jpg,Tomato___Late_blight,,extra copy in val/test
+59282,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323124549_5.jpg,Tomato___Late_blight,,extra copy in val/test
+59283,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323124549_6.jpg,Tomato___Late_blight,,extra copy in val/test
+59327,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323130658_1.jpg,Tomato___Late_blight,,extra copy in val/test
+59328,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323130658_2.jpg,Tomato___Late_blight,,extra copy in val/test
+59329,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323130658_4.jpg,Tomato___Late_blight,,extra copy in val/test
+59330,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323130658_5.jpg,Tomato___Late_blight,,extra copy in val/test
+59331,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323130658_7.jpg,Tomato___Late_blight,,extra copy in val/test
+59343,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323132401_1.jpg,Tomato___Late_blight,,extra copy in val/test
+59344,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323132401_4.jpg,Tomato___Late_blight,,extra copy in val/test
+59345,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323132401_5.jpg,Tomato___Late_blight,,extra copy in val/test
+59346,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323132401_7.jpg,Tomato___Late_blight,,extra copy in val/test
+59360,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323180801_2.jpg,Tomato___Late_blight,,extra copy in val/test
+59361,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323180801_3.jpg,Tomato___Late_blight,,extra copy in val/test
+59362,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323180801_4.jpg,Tomato___Late_blight,,extra copy in val/test
+59363,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323180801_6.jpg,Tomato___Late_blight,,extra copy in val/test
+59364,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323180801_7.jpg,Tomato___Late_blight,,extra copy in val/test
+59365,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323180803.jpg,Tomato___Late_blight,,extra copy in val/test
+59366,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323180803_1.jpg,Tomato___Late_blight,,extra copy in val/test
+59367,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323180803_2.jpg,Tomato___Late_blight,,extra copy in val/test
+59368,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323180803_3.jpg,Tomato___Late_blight,,extra copy in val/test
+59369,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323180803_6.jpg,Tomato___Late_blight,,extra copy in val/test
+59388,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323181113_1.jpg,Tomato___Late_blight,,extra copy in val/test
+59389,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323181113_3.jpg,Tomato___Late_blight,,extra copy in val/test
+59390,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323181113_5.jpg,Tomato___Late_blight,,extra copy in val/test
+59391,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323181113_7.jpg,Tomato___Late_blight,,extra copy in val/test
+59393,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323181127_1.jpg,Tomato___Late_blight,,extra copy in val/test
+59394,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323181127_3.jpg,Tomato___Late_blight,,extra copy in val/test
+59395,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323181127_4.jpg,Tomato___Late_blight,,extra copy in val/test
+59396,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323181127_5.jpg,Tomato___Late_blight,,extra copy in val/test
+59397,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323181127_6.jpg,Tomato___Late_blight,,extra copy in val/test
+59398,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323181127_7.jpg,Tomato___Late_blight,,extra copy in val/test
+59413,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323181659_1.jpg,Tomato___Late_blight,,extra copy in val/test
+59414,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323181659_4.jpg,Tomato___Late_blight,,extra copy in val/test
+59415,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323181659_5.jpg,Tomato___Late_blight,,extra copy in val/test
+59416,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323181659_6.jpg,Tomato___Late_blight,,extra copy in val/test
+59418,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323181703_1.jpg,Tomato___Late_blight,,extra copy in val/test
+59419,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323181703_2.jpg,Tomato___Late_blight,,extra copy in val/test
+59420,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323181703_3.jpg,Tomato___Late_blight,,extra copy in val/test
+59421,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323181703_6.jpg,Tomato___Late_blight,,extra copy in val/test
+59436,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323181928_1.jpg,Tomato___Late_blight,,extra copy in val/test
+59437,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323181928_2.jpg,Tomato___Late_blight,,extra copy in val/test
+59438,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323181928_4.jpg,Tomato___Late_blight,,extra copy in val/test
+59439,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323181928_5.jpg,Tomato___Late_blight,,extra copy in val/test
+59440,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323181928_7.jpg,Tomato___Late_blight,,extra copy in val/test
+59449,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323182243_1.jpg,Tomato___Late_blight,,extra copy in val/test
+59450,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323182243_2.jpg,Tomato___Late_blight,,extra copy in val/test
+59451,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323182243_3.jpg,Tomato___Late_blight,,extra copy in val/test
+59452,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323182243_5.jpg,Tomato___Late_blight,,extra copy in val/test
+59453,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323182243_6.jpg,Tomato___Late_blight,,extra copy in val/test
+59454,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323182243_7.jpg,Tomato___Late_blight,,extra copy in val/test
+59455,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323182317_1.jpg,Tomato___Late_blight,,extra copy in val/test
+59456,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323182317_4.jpg,Tomato___Late_blight,,extra copy in val/test
+59457,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323182317_5.jpg,Tomato___Late_blight,,extra copy in val/test
+59458,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323182317_7.jpg,Tomato___Late_blight,,extra copy in val/test
+59459,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323183710_4.jpg,Tomato___Late_blight,,extra copy in val/test
+59460,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323183710_5.jpg,Tomato___Late_blight,,extra copy in val/test
+59461,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323183710_6.jpg,Tomato___Late_blight,,extra copy in val/test
+59462,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220323183710_7.jpg,Tomato___Late_blight,,extra copy in val/test
+59487,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220324104734_2.jpg,Tomato___Late_blight,,extra copy in val/test
+59488,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220324104734_3.jpg,Tomato___Late_blight,,extra copy in val/test
+59489,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220324104734_5.jpg,Tomato___Late_blight,,extra copy in val/test
+59490,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220324104734_6.jpg,Tomato___Late_blight,,extra copy in val/test
+59538,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220324105933_1.jpg,Tomato___Late_blight,,extra copy in val/test
+59539,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220324105933_2.jpg,Tomato___Late_blight,,extra copy in val/test
+59540,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220324105933_6.jpg,Tomato___Late_blight,,extra copy in val/test
+59552,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220324111719_1.jpg,Tomato___Late_blight,,extra copy in val/test
+59553,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220324111719_2.jpg,Tomato___Late_blight,,extra copy in val/test
+59554,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220324111719_3.jpg,Tomato___Late_blight,,extra copy in val/test
+59555,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220324111719_4.jpg,Tomato___Late_blight,,extra copy in val/test
+59556,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220324111719_5.jpg,Tomato___Late_blight,,extra copy in val/test
+59557,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220324111719_6.jpg,Tomato___Late_blight,,extra copy in val/test
+59589,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220324120450_1.jpg,Tomato___Late_blight,,extra copy in val/test
+59590,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220324120450_3.jpg,Tomato___Late_blight,,extra copy in val/test
+59591,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220324120450_5.jpg,Tomato___Late_blight,,extra copy in val/test
+59592,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220324120450_6.jpg,Tomato___Late_blight,,extra copy in val/test
+59593,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220324120450_7.jpg,Tomato___Late_blight,,extra copy in val/test
+59609,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220324121125_1.jpg,Tomato___Late_blight,,extra copy in val/test
+59610,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220324121125_2.jpg,Tomato___Late_blight,,extra copy in val/test
+59611,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220324121125_3.jpg,Tomato___Late_blight,,extra copy in val/test
+59612,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220324121125_4.jpg,Tomato___Late_blight,,extra copy in val/test
+59613,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220324121125_5.jpg,Tomato___Late_blight,,extra copy in val/test
+59614,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220324121125_7.jpg,Tomato___Late_blight,,extra copy in val/test
+59621,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220324121405_1.jpg,Tomato___Late_blight,,extra copy in val/test
+59622,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220324121405_4.jpg,Tomato___Late_blight,,extra copy in val/test
+59623,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220324121405_5.jpg,Tomato___Late_blight,,extra copy in val/test
+59624,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220324121405_6.jpg,Tomato___Late_blight,,extra copy in val/test
+59625,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220324121405_7.jpg,Tomato___Late_blight,,extra copy in val/test
+59630,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220324121427_1.jpg,Tomato___Late_blight,,extra copy in val/test
+59631,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220324121427_3.jpg,Tomato___Late_blight,,extra copy in val/test
+59632,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220324121427_4.jpg,Tomato___Late_blight,,extra copy in val/test
+59633,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220324121427_5.jpg,Tomato___Late_blight,,extra copy in val/test
+59655,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220324121627_1.jpg,Tomato___Late_blight,,extra copy in val/test
+59656,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220324121627_2.jpg,Tomato___Late_blight,,extra copy in val/test
+59657,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220324121627_3.jpg,Tomato___Late_blight,,extra copy in val/test
+59658,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220324121627_4.jpg,Tomato___Late_blight,,extra copy in val/test
+59659,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220324121627_6.jpg,Tomato___Late_blight,,extra copy in val/test
+59660,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220324121627_7.jpg,Tomato___Late_blight,,extra copy in val/test
+59703,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325110723_1.jpg,Tomato___Late_blight,,extra copy in val/test
+59704,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325110723_2.jpg,Tomato___Late_blight,,extra copy in val/test
+59705,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325110723_3.jpg,Tomato___Late_blight,,extra copy in val/test
+59706,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325110723_6.jpg,Tomato___Late_blight,,extra copy in val/test
+59707,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325110723_7.jpg,Tomato___Late_blight,,extra copy in val/test
+59727,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325111332_4.jpg,Tomato___Late_blight,,extra copy in val/test
+59728,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325111332_5.jpg,Tomato___Late_blight,,extra copy in val/test
+59729,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325111332_6.jpg,Tomato___Late_blight,,extra copy in val/test
+59730,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325111332_7.jpg,Tomato___Late_blight,,extra copy in val/test
+59736,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325111356_1.jpg,Tomato___Late_blight,,extra copy in val/test
+59737,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325111356_2.jpg,Tomato___Late_blight,,extra copy in val/test
+59738,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325111356_3.jpg,Tomato___Late_blight,,extra copy in val/test
+59739,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325111356_4.jpg,Tomato___Late_blight,,extra copy in val/test
+59740,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325111356_5.jpg,Tomato___Late_blight,,extra copy in val/test
+59741,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325111356_7.jpg,Tomato___Late_blight,,extra copy in val/test
+59748,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325111400_1.jpg,Tomato___Late_blight,,extra copy in val/test
+59749,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325111400_3.jpg,Tomato___Late_blight,,extra copy in val/test
+59750,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325111400_4.jpg,Tomato___Late_blight,,extra copy in val/test
+59751,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325111400_6.jpg,Tomato___Late_blight,,extra copy in val/test
+59752,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325111403_1.jpg,Tomato___Late_blight,,extra copy in val/test
+59753,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325111403_4.jpg,Tomato___Late_blight,,extra copy in val/test
+59754,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325111403_7.jpg,Tomato___Late_blight,,extra copy in val/test
+59756,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325111408_1.jpg,Tomato___Late_blight,,extra copy in val/test
+59757,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325111408_2.jpg,Tomato___Late_blight,,extra copy in val/test
+59758,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325111408_3.jpg,Tomato___Late_blight,,extra copy in val/test
+59759,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325111408_5.jpg,Tomato___Late_blight,,extra copy in val/test
+59760,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325111408_6.jpg,Tomato___Late_blight,,extra copy in val/test
+59803,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325135110_2.jpg,Tomato___Late_blight,,extra copy in val/test
+59804,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325135110_3.jpg,Tomato___Late_blight,,extra copy in val/test
+59805,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325135110_4.jpg,Tomato___Late_blight,,extra copy in val/test
+59806,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325135110_5.jpg,Tomato___Late_blight,,extra copy in val/test
+59807,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325135110_6.jpg,Tomato___Late_blight,,extra copy in val/test
+59808,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325135513_1.jpg,Tomato___Late_blight,,extra copy in val/test
+59809,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325135513_2.jpg,Tomato___Late_blight,,extra copy in val/test
+59810,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325135513_3.jpg,Tomato___Late_blight,,extra copy in val/test
+59811,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325135513_6.jpg,Tomato___Late_blight,,extra copy in val/test
+59812,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325135513_7.jpg,Tomato___Late_blight,,extra copy in val/test
+59822,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325142437_1.jpg,Tomato___Late_blight,,extra copy in val/test
+59823,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325142437_2.jpg,Tomato___Late_blight,,extra copy in val/test
+59824,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325142437_3.jpg,Tomato___Late_blight,,extra copy in val/test
+59825,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325142437_4.jpg,Tomato___Late_blight,,extra copy in val/test
+59826,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325142437_5.jpg,Tomato___Late_blight,,extra copy in val/test
+59827,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325142437_6.jpg,Tomato___Late_blight,,extra copy in val/test
+59848,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325142616_2.jpg,Tomato___Late_blight,,extra copy in val/test
+59849,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325142616_3.jpg,Tomato___Late_blight,,extra copy in val/test
+59850,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325142616_4.jpg,Tomato___Late_blight,,extra copy in val/test
+59851,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325142616_5.jpg,Tomato___Late_blight,,extra copy in val/test
+59852,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325142616_6.jpg,Tomato___Late_blight,,extra copy in val/test
+59853,TomatoVillage,Variant-a(Multiclass Classification)/train/Late_blight/IMG20220325142616_7.jpg,Tomato___Late_blight,,extra copy in val/test
+59877,TomatoVillage,Variant-a(Multiclass Classification)/val/Early_blight/IMG20220323105539_6.jpg,Tomato___Early_blight,,duplicate of a test image
+59882,TomatoVillage,Variant-a(Multiclass Classification)/val/Early_blight/IMG20220323124244_1.jpg,Tomato___Early_blight,,extra copy in val/test
+59883,TomatoVillage,Variant-a(Multiclass Classification)/val/Early_blight/IMG20220323124244_3.jpg,Tomato___Early_blight,,extra copy in val/test
+59900,TomatoVillage,Variant-a(Multiclass Classification)/val/Early_blight/IMG20220324114755_4.jpg,Tomato___Early_blight,,extra copy in val/test
+59901,TomatoVillage,Variant-a(Multiclass Classification)/val/Early_blight/IMG20220324114755_5.jpg,Tomato___Early_blight,,extra copy in val/test
+59907,TomatoVillage,Variant-a(Multiclass Classification)/val/Early_blight/IMG20220324115257_3.jpg,Tomato___Early_blight,,extra copy in val/test
+59908,TomatoVillage,Variant-a(Multiclass Classification)/val/Early_blight/IMG20220324115257_7.jpg,Tomato___Early_blight,,extra copy in val/test
+59913,TomatoVillage,Variant-a(Multiclass Classification)/val/Early_blight/IMG20220324122015.jpg,Tomato___Early_blight,,extra copy in val/test
+59914,TomatoVillage,Variant-a(Multiclass Classification)/val/Early_blight/IMG20220324122015_1.jpg,Tomato___Early_blight,,extra copy in val/test
+59915,TomatoVillage,Variant-a(Multiclass Classification)/val/Early_blight/IMG20220324122015_5.jpg,Tomato___Early_blight,,extra copy in val/test
+59916,TomatoVillage,Variant-a(Multiclass Classification)/val/Early_blight/IMG20220324122018_6.jpg,Tomato___Early_blight,,extra copy in val/test
+59923,TomatoVillage,Variant-a(Multiclass Classification)/val/Early_blight/IMG20220324180120_2.jpg,Tomato___Early_blight,,extra copy in val/test
+59929,TomatoVillage,Variant-a(Multiclass Classification)/val/Early_blight/IMG20220324182728_7.jpg,Tomato___Early_blight,,extra copy in val/test
+59931,TomatoVillage,Variant-a(Multiclass Classification)/val/Early_blight/IMG20220324182732_3.jpg,Tomato___Early_blight,,extra copy in val/test
+59932,TomatoVillage,Variant-a(Multiclass Classification)/val/Early_blight/IMG20220324182732_6.jpg,Tomato___Early_blight,,extra copy in val/test
+59933,TomatoVillage,Variant-a(Multiclass Classification)/val/Early_blight/IMG20220324182732_7.jpg,Tomato___Early_blight,,extra copy in val/test
+59936,TomatoVillage,Variant-a(Multiclass Classification)/val/Early_blight/IMG20220324184129_4.jpg,Tomato___Early_blight,,extra copy in val/test
+59937,TomatoVillage,Variant-a(Multiclass Classification)/val/Early_blight/IMG20220324184129_6.jpg,Tomato___Early_blight,,extra copy in val/test
+59942,TomatoVillage,Variant-a(Multiclass Classification)/val/Early_blight/IMG20220325114801_3.jpg,Tomato___Early_blight,,extra copy in val/test
+59943,TomatoVillage,Variant-a(Multiclass Classification)/val/Early_blight/IMG20220325120823_2.jpg,Tomato___Early_blight,,near-duplicate with a different label
+59944,TomatoVillage,Variant-a(Multiclass Classification)/val/Early_blight/IMG20220325120823_3.jpg,Tomato___Early_blight,,near-duplicate with a different label
+59949,TomatoVillage,Variant-a(Multiclass Classification)/val/Early_blight/IMG20220325135503_4.jpg,Tomato___Early_blight,,extra copy in val/test
+59950,TomatoVillage,Variant-a(Multiclass Classification)/val/Early_blight/IMG20220325135503_6.jpg,Tomato___Early_blight,,extra copy in val/test
+59951,TomatoVillage,Variant-a(Multiclass Classification)/val/Early_blight/IMG20220325140013_2.jpg,Tomato___Early_blight,,extra copy in val/test
+59952,TomatoVillage,Variant-a(Multiclass Classification)/val/Early_blight/IMG20220325140013_7.jpg,Tomato___Early_blight,,extra copy in val/test
+60008,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220323122907_1.jpg,Tomato___Late_blight,,extra copy in val/test
+60009,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220323122907_4.jpg,Tomato___Late_blight,,extra copy in val/test
+60010,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220323123120_6.jpg,Tomato___Late_blight,,extra copy in val/test
+60012,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220323124549_2.jpg,Tomato___Late_blight,,extra copy in val/test
+60013,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220323124549_7.jpg,Tomato___Late_blight,,extra copy in val/test
+60017,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220323130658_3.jpg,Tomato___Late_blight,,extra copy in val/test
+60018,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220323130658_6.jpg,Tomato___Late_blight,,extra copy in val/test
+60025,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220323132401_2.jpg,Tomato___Late_blight,,extra copy in val/test
+60026,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220323132401_3.jpg,Tomato___Late_blight,,extra copy in val/test
+60027,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220323132401_6.jpg,Tomato___Late_blight,,extra copy in val/test
+60030,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220323180801_1.jpg,Tomato___Late_blight,,extra copy in val/test
+60031,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220323180801_5.jpg,Tomato___Late_blight,,extra copy in val/test
+60032,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220323180803_4.jpg,Tomato___Late_blight,,extra copy in val/test
+60033,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220323180803_5.jpg,Tomato___Late_blight,,extra copy in val/test
+60034,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220323180803_7.jpg,Tomato___Late_blight,,extra copy in val/test
+60039,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220323181113_2.jpg,Tomato___Late_blight,,extra copy in val/test
+60040,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220323181113_4.jpg,Tomato___Late_blight,,extra copy in val/test
+60041,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220323181113_6.jpg,Tomato___Late_blight,,extra copy in val/test
+60044,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220323181659_2.jpg,Tomato___Late_blight,,extra copy in val/test
+60045,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220323181659_3.jpg,Tomato___Late_blight,,extra copy in val/test
+60046,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220323181659_7.jpg,Tomato___Late_blight,,extra copy in val/test
+60047,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220323181703_4.jpg,Tomato___Late_blight,,extra copy in val/test
+60048,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220323181703_5.jpg,Tomato___Late_blight,,extra copy in val/test
+60052,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220323181928_6.jpg,Tomato___Late_blight,,extra copy in val/test
+60054,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220323182243_4.jpg,Tomato___Late_blight,,extra copy in val/test
+60056,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220323182317_2.jpg,Tomato___Late_blight,,extra copy in val/test
+60058,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220323183710_2.jpg,Tomato___Late_blight,,extra copy in val/test
+60059,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220323183710_3.jpg,Tomato___Late_blight,,extra copy in val/test
+60066,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220324104734_4.jpg,Tomato___Late_blight,,extra copy in val/test
+60067,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220324104734_7.jpg,Tomato___Late_blight,,extra copy in val/test
+60078,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220324105933_4.jpg,Tomato___Late_blight,,extra copy in val/test
+60079,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220324105933_5.jpg,Tomato___Late_blight,,extra copy in val/test
+60080,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220324105933_7.jpg,Tomato___Late_blight,,extra copy in val/test
+60094,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220324120450_2.jpg,Tomato___Late_blight,,extra copy in val/test
+60095,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220324120450_4.jpg,Tomato___Late_blight,,extra copy in val/test
+60097,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220324121125_6.jpg,Tomato___Late_blight,,extra copy in val/test
+60100,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220324121405_3.jpg,Tomato___Late_blight,,extra copy in val/test
+60105,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220324121427_6.jpg,Tomato___Late_blight,,extra copy in val/test
+60106,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220324121427_7.jpg,Tomato___Late_blight,,extra copy in val/test
+60114,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220324121627_5.jpg,Tomato___Late_blight,,extra copy in val/test
+60134,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220325110723_5.jpg,Tomato___Late_blight,,extra copy in val/test
+60138,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220325111332_2.jpg,Tomato___Late_blight,,extra copy in val/test
+60142,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220325111356_6.jpg,Tomato___Late_blight,,extra copy in val/test
+60146,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220325111400_2.jpg,Tomato___Late_blight,,extra copy in val/test
+60147,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220325111400_7.jpg,Tomato___Late_blight,,extra copy in val/test
+60149,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220325111403_2.jpg,Tomato___Late_blight,,extra copy in val/test
+60150,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220325111403_5.jpg,Tomato___Late_blight,,extra copy in val/test
+60151,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220325111403_6.jpg,Tomato___Late_blight,,extra copy in val/test
+60152,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220325111408_4.jpg,Tomato___Late_blight,,extra copy in val/test
+60164,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220325135110_1.jpg,Tomato___Late_blight,,extra copy in val/test
+60165,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220325135110_7.jpg,Tomato___Late_blight,,extra copy in val/test
+60166,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220325135513_5.jpg,Tomato___Late_blight,,extra copy in val/test
+60175,TomatoVillage,Variant-a(Multiclass Classification)/val/Late_blight/IMG20220325142616_1.jpg,Tomato___Late_blight,,extra copy in val/test
+60203,PlantWild,plantwild_v2/apple rust/apple_rust_30.jpg,Apple___Cedar_apple_rust,,near-duplicate with a different label
+60221,PlantWild,plantwild_v2/apple rust/apple_rust_162.jpg,Apple___Cedar_apple_rust,,near-duplicate with a different label
+60230,PlantWild,plantwild_v2/apple rust/apple_rust_96.jpg,Apple___Cedar_apple_rust,,near-duplicate with a different label
+60288,PlantWild,plantwild_v2/apple rust/apple_rust_google_0129.jpg,Apple___Cedar_apple_rust,,exact duplicate
+60298,PlantWild,plantwild_v2/apple rust/apple_rust_64.jpg,Apple___Cedar_apple_rust,,near-duplicate with a different label
+60312,PlantWild,plantwild_v2/apple rust/apple_rust_78.jpg,Apple___Cedar_apple_rust,,near-duplicate with a different label
+60319,PlantWild,plantwild_v2/tomato yellow leaf curl virus/tomato_yellow_leaf_curl_virus_google_0010.jpg,Tomato___Tomato_Yellow_Leaf_Curl_Virus,,duplicate of a test image
+60333,PlantWild,plantwild_v2/tomato yellow leaf curl virus/tomato_yellow_leaf_curl_virus_google_0147.jpg,Tomato___Tomato_Yellow_Leaf_Curl_Virus,,duplicate of a val image
+60334,PlantWild,plantwild_v2/tomato yellow leaf curl virus/tomato_yellow_leaf_curl_virus_4.jpg,Tomato___Tomato_Yellow_Leaf_Curl_Virus,,near-duplicate with a different label
+60338,PlantWild,plantwild_v2/tomato yellow leaf curl virus/tomato_yellow_leaf_curl_virus_google_0077.jpg,Tomato___Tomato_Yellow_Leaf_Curl_Virus,,near-duplicate with a different label
+60346,PlantWild,plantwild_v2/tomato yellow leaf curl virus/tomato_yellow_leaf_curl_virus_google_0172.jpg,Tomato___Tomato_Yellow_Leaf_Curl_Virus,,near-duplicate with a different label
+60352,PlantWild,plantwild_v2/tomato yellow leaf curl virus/tomato_yellow_leaf_curl_virus_google_0027.jpg,Tomato___Tomato_Yellow_Leaf_Curl_Virus,,duplicate of a test image
+60358,PlantWild,plantwild_v2/tomato yellow leaf curl virus/tomato_yellow_leaf_curl_virus_40.jpg,Tomato___Tomato_Yellow_Leaf_Curl_Virus,,near-duplicate with a different label
+60367,PlantWild,plantwild_v2/tomato yellow leaf curl virus/tomato_yellow_leaf_curl_virus_1.jpg,Tomato___Tomato_Yellow_Leaf_Curl_Virus,,near-duplicate with a different label
+60369,PlantWild,plantwild_v2/tomato yellow leaf curl virus/tomato_yellow_leaf_curl_virus_google_0037.jpg,Tomato___Tomato_Yellow_Leaf_Curl_Virus,,exact duplicate
+60375,PlantWild,plantwild_v2/tomato yellow leaf curl virus/tomato_yellow_leaf_curl_virus_62.jpg,Tomato___Tomato_Yellow_Leaf_Curl_Virus,,near-duplicate with a different label
+60399,PlantWild,plantwild_v2/tomato yellow leaf curl virus/tomato_yellow_leaf_curl_virus_11.jpg,Tomato___Tomato_Yellow_Leaf_Curl_Virus,,near-duplicate with a different label
+60587,PlantWild,plantwild_v2/tomato late blight/tomato_late_blight_google_0240.jpg,Tomato___Late_blight,,near-duplicate with a different label
+60594,PlantWild,plantwild_v2/tomato late blight/tomato_late_blight_google_0016.jpg,Tomato___Late_blight,,near-duplicate with a different label
+60616,PlantWild,plantwild_v2/tomato late blight/tomato_late_blight_google_0110.jpg,Tomato___Late_blight,,exact duplicate
+60641,PlantWild,plantwild_v2/tomato late blight/tomato_late_blight_google_0262.jpg,Tomato___Late_blight,,exact duplicate
+60669,PlantWild,plantwild_v2/tomato late blight/tomato_late_blight_google_0271.jpg,Tomato___Late_blight,,duplicate of a val image
+60683,PlantWild,plantwild_v2/tomato late blight/tomato_late_blight_google_0091.jpg,Tomato___Late_blight,,duplicate of a test image
+60707,PlantWild,plantwild_v2/tomato early blight/tomato_early_blight_google_0223.jpg,Tomato___Early_blight,,near-duplicate with a different label
+60717,PlantWild,plantwild_v2/tomato early blight/tomato_early_blight_google_0043.jpg,Tomato___Early_blight,,duplicate of a test image
+60720,PlantWild,plantwild_v2/tomato early blight/tomato_early_blight_google_0044.jpg,Tomato___Early_blight,,near-duplicate with a different label
+60727,PlantWild,plantwild_v2/tomato early blight/tomato_early_blight_google_0015.jpg,Tomato___Early_blight,,near-duplicate with a different label
+60739,PlantWild,plantwild_v2/tomato early blight/tomato_early_blight_google_0374.jpg,Tomato___Early_blight,,duplicate of a val image
+60751,PlantWild,plantwild_v2/tomato early blight/tomato_early_blight_google_0053.jpg,Tomato___Early_blight,,duplicate of a val image
+60754,PlantWild,plantwild_v2/tomato early blight/tomato_early_blight_google_0343.jpg,Tomato___Early_blight,,near-duplicate with a different label
+60762,PlantWild,plantwild_v2/tomato early blight/tomato_early_blight_google_0145.jpg,Tomato___Early_blight,,exact duplicate
+60767,PlantWild,plantwild_v2/tomato early blight/tomato_early_blight_210.jpg,Tomato___Early_blight,,near-duplicate with a different label
+60773,PlantWild,plantwild_v2/tomato early blight/tomato_early_blight_google_0341.jpg,Tomato___Early_blight,,near-duplicate with a different label
+60789,PlantWild,plantwild_v2/tomato early blight/tomato_early_blight_google_0271.jpg,Tomato___Early_blight,,near-duplicate with a different label
+60797,PlantWild,plantwild_v2/tomato early blight/tomato_early_blight_193.jpg,Tomato___Early_blight,,extra copy in val/test
+60802,PlantWild,plantwild_v2/tomato early blight/tomato_early_blight_google_0219.jpg,Tomato___Early_blight,,near-duplicate with a different label
+60804,PlantWild,plantwild_v2/tomato early blight/tomato_early_blight_google_0111.jpg,Tomato___Early_blight,,near-duplicate with a different label
+60805,PlantWild,plantwild_v2/tomato early blight/tomato_early_blight_google_0059.jpg,Tomato___Early_blight,,near-duplicate with a different label
+60807,PlantWild,plantwild_v2/tomato early blight/tomato_early_blight_google_0036.jpg,Tomato___Early_blight,,exact duplicate
+60809,PlantWild,plantwild_v2/tomato early blight/tomato_early_blight_google_0093.jpg,Tomato___Early_blight,,near-duplicate with a different label
+60810,PlantWild,plantwild_v2/tomato early blight/tomato_early_blight_google_0032.jpg,Tomato___Early_blight,,near-duplicate with a different label
+60817,PlantWild,plantwild_v2/tomato early blight/tomato_early_blight_google_0326.jpg,Tomato___Early_blight,,near-duplicate with a different label
+60818,PlantWild,plantwild_v2/tomato early blight/tomato_early_blight_google_0260.jpg,Tomato___Early_blight,,near-duplicate with a different label
+60821,PlantWild,plantwild_v2/tomato early blight/tomato_early_blight_246.jpg,Tomato___Early_blight,,near-duplicate with a different label
+60824,PlantWild,plantwild_v2/tomato early blight/tomato_early_blight_google_0163.jpg,Tomato___Early_blight,,near-duplicate with a different label
+60831,PlantWild,plantwild_v2/tomato early blight/tomato_early_blight_google_0120.jpg,Tomato___Early_blight,,near-duplicate with a different label
+60834,PlantWild,plantwild_v2/tomato early blight/tomato_early_blight_google_0024.jpg,Tomato___Early_blight,,exact duplicate
+60836,PlantWild,plantwild_v2/tomato early blight/tomato_early_blight_google_0322.jpg,Tomato___Early_blight,,near-duplicate with a different label
+60844,PlantWild,plantwild_v2/tomato early blight/tomato_early_blight_google_0347.jpg,Tomato___Early_blight,,near-duplicate with a different label
+60846,PlantWild,plantwild_v2/tomato early blight/tomato_early_blight_google_0042.jpg,Tomato___Early_blight,,near-duplicate with a different label
+60848,PlantWild,plantwild_v2/tomato early blight/tomato_early_blight_google_0267.jpg,Tomato___Early_blight,,near-duplicate with a different label
+60850,PlantWild,plantwild_v2/tomato early blight/tomato_early_blight_google_0099.jpg,Tomato___Early_blight,,near-duplicate with a different label
+60852,PlantWild,plantwild_v2/tomato early blight/tomato_early_blight_google_0177.jpg,Tomato___Early_blight,,near-duplicate with a different label
+60853,PlantWild,plantwild_v2/tomato early blight/tomato_early_blight_google_0152.jpg,Tomato___Early_blight,,near-duplicate with a different label
+60856,PlantWild,plantwild_v2/tomato early blight/tomato_early_blight_google_0235.jpg,Tomato___Early_blight,,duplicate of a test image
+60871,PlantWild,plantwild_v2/tomato early blight/tomato_early_blight_google_0041.jpg,Tomato___Early_blight,,near-duplicate with a different label
+60880,PlantWild,plantwild_v2/tomato early blight/tomato_early_blight_google_0133.jpg,Tomato___Early_blight,,duplicate of a test image
+60889,PlantWild,plantwild_v2/tomato early blight/tomato_early_blight_google_0076.jpg,Tomato___Early_blight,,near-duplicate with a different label
+60899,PlantWild,plantwild_v2/corn northern leaf blight/corn_northern_leaf_blight_google_0112.jpg,Corn_(maize)___Northern_Leaf_Blight,,exact duplicate
+60913,PlantWild,plantwild_v2/corn northern leaf blight/corn_northern_leaf_blight_google_0063.jpg,Corn_(maize)___Northern_Leaf_Blight,,duplicate of a val image
+60916,PlantWild,plantwild_v2/corn northern leaf blight/corn_northern_leaf_blight_google_0045.jpg,Corn_(maize)___Northern_Leaf_Blight,,exact duplicate
+60921,PlantWild,plantwild_v2/corn northern leaf blight/corn_northern_leaf_blight_google_0126.jpg,Corn_(maize)___Northern_Leaf_Blight,,exact duplicate
+60938,PlantWild,plantwild_v2/corn northern leaf blight/corn_northern_leaf_blight_google_0040.jpg,Corn_(maize)___Northern_Leaf_Blight,,duplicate of a test image
+60977,PlantWild,plantwild_v2/corn northern leaf blight/corn_northern_leaf_blight_google_0086.jpg,Corn_(maize)___Northern_Leaf_Blight,,exact duplicate
+60988,PlantWild,plantwild_v2/corn northern leaf blight/corn_northern_leaf_blight_google_0069.jpg,Corn_(maize)___Northern_Leaf_Blight,,exact duplicate
+60997,PlantWild,plantwild_v2/corn northern leaf blight/corn_northern_leaf_blight_google_0002.jpg,Corn_(maize)___Northern_Leaf_Blight,,exact duplicate
+61003,PlantWild,plantwild_v2/corn northern leaf blight/corn_northern_leaf_blight_google_0019.jpg,Corn_(maize)___Northern_Leaf_Blight,,duplicate of a test image
+61025,PlantWild,plantwild_v2/corn gray leaf spot/corn_gray_leaf_spot_google_0149.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,exact duplicate
+61026,PlantWild,plantwild_v2/corn gray leaf spot/corn_gray_leaf_spot_google_0152.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,near-duplicate with a different label
+61027,PlantWild,plantwild_v2/corn gray leaf spot/corn_gray_leaf_spot_google_0026.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,near-duplicate with a different label
+61037,PlantWild,plantwild_v2/corn gray leaf spot/corn_gray_leaf_spot_google_0002.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a val image
+61043,PlantWild,plantwild_v2/corn gray leaf spot/corn_gray_leaf_spot_google_0005.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,exact duplicate
+61051,PlantWild,plantwild_v2/corn gray leaf spot/corn_gray_leaf_spot_google_0096.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a test image
+61059,PlantWild,plantwild_v2/corn gray leaf spot/corn_gray_leaf_spot_google_0021.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a test image
+61060,PlantWild,plantwild_v2/corn gray leaf spot/corn_gray_leaf_spot_google_0049.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a val image
+61066,PlantWild,plantwild_v2/corn gray leaf spot/corn_gray_leaf_spot_google_0172.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,exact duplicate
+61078,PlantWild,plantwild_v2/corn gray leaf spot/corn_gray_leaf_spot_google_0087.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a test image
+61081,PlantWild,plantwild_v2/corn gray leaf spot/corn_gray_leaf_spot_google_0214.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,near-duplicate with a different label
+61083,PlantWild,plantwild_v2/corn gray leaf spot/corn_gray_leaf_spot_google_0061.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,near-duplicate with a different label
+61087,PlantWild,plantwild_v2/corn gray leaf spot/corn_gray_leaf_spot_google_0274.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a val image
+61093,PlantWild,plantwild_v2/corn gray leaf spot/corn_gray_leaf_spot_google_0211.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a val image
+61095,PlantWild,plantwild_v2/corn gray leaf spot/corn_gray_leaf_spot_google_0035.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,duplicate of a test image
+61105,PlantWild,plantwild_v2/corn gray leaf spot/corn_gray_leaf_spot_google_0025.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,exact duplicate
+61108,PlantWild,plantwild_v2/corn gray leaf spot/corn_gray_leaf_spot_google_0034.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,exact duplicate
+61114,PlantWild,plantwild_v2/corn gray leaf spot/corn_gray_leaf_spot_google_0140.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,,near-duplicate with a different label
+61137,PlantWild,plantwild_v2/grape leaf spot/grape_leaf_spot_google_0004.jpg,Grape___Leaf_blight_(Isariopsis_Leaf_Spot),,duplicate of a test image
+61144,PlantWild,plantwild_v2/grape leaf spot/grape_leaf_spot_google_0038.jpg,Grape___Leaf_blight_(Isariopsis_Leaf_Spot),,duplicate of a test image
+61166,PlantWild,plantwild_v2/grape leaf spot/grape_leaf_spot_google_0046.jpg,Grape___Leaf_blight_(Isariopsis_Leaf_Spot),,near-duplicate with a different label
+61178,PlantWild,plantwild_v2/grape leaf spot/grape_leaf_spot_google_0030.jpg,Grape___Leaf_blight_(Isariopsis_Leaf_Spot),,near-duplicate with a different label
+61187,PlantWild,plantwild_v2/grape leaf spot/grape_leaf_spot_google_0060.jpg,Grape___Leaf_blight_(Isariopsis_Leaf_Spot),,near-duplicate with a different label
+61191,PlantWild,plantwild_v2/grape leaf spot/grape_leaf_spot_168.jpg,Grape___Leaf_blight_(Isariopsis_Leaf_Spot),,extra copy in val/test
+61198,PlantWild,plantwild_v2/grape leaf spot/grape_leaf_spot_google_0036.jpg,Grape___Leaf_blight_(Isariopsis_Leaf_Spot),,near-duplicate with a different label
+61200,PlantWild,plantwild_v2/grape leaf spot/grape_leaf_spot_205.jpg,Grape___Leaf_blight_(Isariopsis_Leaf_Spot),,extra copy in val/test
+61222,PlantWild,plantwild_v2/apple black rot/apple_black_rot_80.jpg,Apple___Black_rot,,near-duplicate with a different label
+61240,PlantWild,plantwild_v2/apple black rot/apple_black_rot_18.jpg,Apple___Black_rot,,near-duplicate with a different label
+61252,PlantWild,plantwild_v2/apple black rot/apple_black_rot_1.jpg,Apple___Black_rot,,near-duplicate with a different label
+61254,PlantWild,plantwild_v2/apple black rot/apple_black_rot_144.jpg,Apple___Black_rot,,extra copy in val/test
+61264,PlantWild,plantwild_v2/apple black rot/apple_black_rot_google_0052.jpg,Apple___Black_rot,,duplicate of a val image
+61330,PlantWild,plantwild_v2/tomato leaf mold/tomato_leaf_mold_google_0122.jpg,Tomato___Leaf_Mold,,duplicate of a val image
+61333,PlantWild,plantwild_v2/tomato leaf mold/tomato_leaf_mold_google_0054.jpg,Tomato___Leaf_Mold,,exact duplicate
+61414,PlantWild,plantwild_v2/tomato leaf mold/tomato_leaf_mold_google_0083.jpg,Tomato___Leaf_Mold,,exact duplicate
+61424,PlantWild,plantwild_v2/tomato leaf mold/tomato_leaf_mold_google_0051.jpg,Tomato___Leaf_Mold,,duplicate of a val image
+61449,PlantWild,plantwild_v2/tomato leaf mold/tomato_leaf_mold_217.jpg,Tomato___Leaf_Mold,,extra copy in val/test
+61476,PlantWild,plantwild_v2/cherry powdery mildew/cherry_powdery_mildew_google_0018.jpg,Cherry_(including_sour)___Powdery_mildew,,near-duplicate with a different label
+61487,PlantWild,plantwild_v2/cherry powdery mildew/cherry_powdery_mildew_google_0062.jpg,Cherry_(including_sour)___Powdery_mildew,,duplicate of a test image
+61493,PlantWild,plantwild_v2/tomato bacterial leaf spot/tomato_bacterial_leaf_spot_google_0224.jpg,Tomato___Bacterial_spot,,near-duplicate with a different label
+61505,PlantWild,plantwild_v2/tomato bacterial leaf spot/tomato_bacterial_leaf_spot_google_0163.jpg,Tomato___Bacterial_spot,,near-duplicate with a different label
+61512,PlantWild,plantwild_v2/tomato bacterial leaf spot/tomato_bacterial_leaf_spot_google_0262.jpg,Tomato___Bacterial_spot,,duplicate of a val image
+61531,PlantWild,plantwild_v2/tomato bacterial leaf spot/tomato_bacterial_leaf_spot_google_0195.jpg,Tomato___Bacterial_spot,,duplicate of a val image
+61539,PlantWild,plantwild_v2/tomato bacterial leaf spot/tomato_bacterial_leaf_spot_google_0004.jpg,Tomato___Bacterial_spot,,duplicate of a custom image
+61543,PlantWild,plantwild_v2/tomato bacterial leaf spot/tomato_bacterial_leaf_spot_78.jpg,Tomato___Bacterial_spot,,near-duplicate with a different label
+61544,PlantWild,plantwild_v2/tomato bacterial leaf spot/tomato_bacterial_leaf_spot_google_0254.jpg,Tomato___Bacterial_spot,,exact duplicate
+61548,PlantWild,plantwild_v2/tomato bacterial leaf spot/tomato_bacterial_leaf_spot_28.jpg,Tomato___Bacterial_spot,,near-duplicate with a different label
+61555,PlantWild,plantwild_v2/tomato bacterial leaf spot/tomato_bacterial_leaf_spot_google_0087.jpg,Tomato___Bacterial_spot,,near-duplicate with a different label
+61563,PlantWild,plantwild_v2/tomato bacterial leaf spot/tomato_bacterial_leaf_spot_google_0017.jpg,Tomato___Bacterial_spot,,near-duplicate with a different label
+61587,PlantWild,plantwild_v2/tomato bacterial leaf spot/tomato_bacterial_leaf_spot_google_0091.jpg,Tomato___Bacterial_spot,,near-duplicate with a different label
+61599,PlantWild,plantwild_v2/tomato bacterial leaf spot/tomato_bacterial_leaf_spot_google_0077.jpg,Tomato___Bacterial_spot,,near-duplicate with a different label
+61607,PlantWild,plantwild_v2/potato early blight/potato_early_blight_google_0013.jpg,Potato___Early_blight,,near-duplicate with a different label
+61610,PlantWild,plantwild_v2/potato early blight/potato_early_blight_google_0014.jpg,Potato___Early_blight,,exact duplicate
+61621,PlantWild,plantwild_v2/potato early blight/potato_early_blight_google_0345.jpg,Potato___Early_blight,,duplicate of a val image
+61636,PlantWild,plantwild_v2/potato early blight/potato_early_blight_55.jpg,Potato___Early_blight,,near-duplicate with a different label
+61642,PlantWild,plantwild_v2/potato early blight/potato_early_blight_google_0055.jpg,Potato___Early_blight,,near-duplicate with a different label
+61645,PlantWild,plantwild_v2/potato early blight/potato_early_blight_google_0284.jpg,Potato___Early_blight,,near-duplicate with a different label
+61651,PlantWild,plantwild_v2/potato early blight/potato_early_blight_google_0145.jpg,Potato___Early_blight,,exact duplicate
+61652,PlantWild,plantwild_v2/potato early blight/potato_early_blight_google_0005.jpg,Potato___Early_blight,,near-duplicate with a different label
+61653,PlantWild,plantwild_v2/potato early blight/potato_early_blight_41.jpg,Potato___Early_blight,,near-duplicate with a different label
+61654,PlantWild,plantwild_v2/potato early blight/potato_early_blight_google_0079.jpg,Potato___Early_blight,,near-duplicate with a different label
+61655,PlantWild,plantwild_v2/potato early blight/potato_early_blight_google_0010.jpg,Potato___Early_blight,,exact duplicate
+61656,PlantWild,plantwild_v2/potato early blight/potato_early_blight_google_0200.jpg,Potato___Early_blight,,near-duplicate with a different label
+61658,PlantWild,plantwild_v2/potato early blight/potato_early_blight_google_0004.jpg,Potato___Early_blight,,duplicate of a val image
+61663,PlantWild,plantwild_v2/potato early blight/potato_early_blight_google_0116.jpg,Potato___Early_blight,,near-duplicate with a different label
+61665,PlantWild,plantwild_v2/potato early blight/potato_early_blight_google_0084.jpg,Potato___Early_blight,,duplicate of a test image
+61669,PlantWild,plantwild_v2/potato early blight/potato_early_blight_google_0048.jpg,Potato___Early_blight,,near-duplicate with a different label
+61684,PlantWild,plantwild_v2/potato early blight/potato_early_blight_google_0100.jpg,Potato___Early_blight,,near-duplicate with a different label
+61685,PlantWild,plantwild_v2/potato early blight/potato_early_blight_google_0053.jpg,Potato___Early_blight,,near-duplicate with a different label
+61687,PlantWild,plantwild_v2/potato early blight/potato_early_blight_google_0126.jpg,Potato___Early_blight,,exact duplicate
+61691,PlantWild,plantwild_v2/potato early blight/potato_early_blight_google_0147.jpg,Potato___Early_blight,,near-duplicate with a different label
+61696,PlantWild,plantwild_v2/potato early blight/potato_early_blight_google_0071.jpg,Potato___Early_blight,,near-duplicate with a different label
+61701,PlantWild,plantwild_v2/potato early blight/potato_early_blight_google_0002.jpg,Potato___Early_blight,,duplicate of a val image
+61723,PlantWild,plantwild_v2/potato early blight/potato_early_blight_31.jpg,Potato___Early_blight,,extra copy in val/test
+61747,PlantWild,plantwild_v2/grape black rot/grape_black_rot_google_0046.jpg,Grape___Black_rot,,duplicate of a test image
+61761,PlantWild,plantwild_v2/grape black rot/grape_black_rot_google_0111.jpg,Grape___Black_rot,,exact duplicate
+61773,PlantWild,plantwild_v2/grape black rot/grape_black_rot_google_0040.jpg,Grape___Black_rot,,exact duplicate
+61787,PlantWild,plantwild_v2/grape black rot/grape_black_rot_42.jpg,Grape___Black_rot,,near-duplicate with a different label
+61818,PlantWild,plantwild_v2/grape black rot/grape_black_rot_40.jpg,Grape___Black_rot,,extra copy in val/test
+61821,PlantWild,plantwild_v2/grape black rot/grape_black_rot_google_0124.jpg,Grape___Black_rot,,duplicate of a test image
+61838,PlantWild,plantwild_v2/grape black rot/grape_black_rot_google_0066.jpg,Grape___Black_rot,,exact duplicate
+61862,PlantWild,plantwild_v2/strawberry leaf scorch/strawberry_leaf_scorch_google_0171.jpg,Strawberry___Leaf_scorch,,duplicate of a val image
+61878,PlantWild,plantwild_v2/strawberry leaf scorch/strawberry_leaf_scorch_google_0043.jpg,Strawberry___Leaf_scorch,,exact duplicate
+61898,PlantWild,plantwild_v2/corn rust/corn_rust_google_0224.jpg,Corn_(maize)___Common_rust_,,exact duplicate
+61934,PlantWild,plantwild_v2/corn rust/corn_rust_google_0042.jpg,Corn_(maize)___Common_rust_,,exact duplicate
+61939,PlantWild,plantwild_v2/corn rust/corn_rust_google_0024.jpg,Corn_(maize)___Common_rust_,,duplicate of a test image
+61944,PlantWild,plantwild_v2/corn rust/corn_rust_google_0058.jpg,Corn_(maize)___Common_rust_,,duplicate of a test image
+61958,PlantWild,plantwild_v2/corn rust/corn_rust_17.jpg,Corn_(maize)___Common_rust_,,duplicate of a custom image
+61978,PlantWild,plantwild_v2/corn rust/corn_rust_google_0006.jpg,Corn_(maize)___Common_rust_,,exact duplicate
+61980,PlantWild,plantwild_v2/corn rust/corn_rust_google_0105.jpg,Corn_(maize)___Common_rust_,,exact duplicate
+61996,PlantWild,plantwild_v2/corn rust/corn_rust_google_0180.jpg,Corn_(maize)___Common_rust_,,duplicate of a val image
+61998,PlantWild,plantwild_v2/corn rust/corn_rust_google_0066.jpg,Corn_(maize)___Common_rust_,,duplicate of a val image
+62000,PlantWild,plantwild_v2/corn rust/corn_rust_google_0096.jpg,Corn_(maize)___Common_rust_,,duplicate of a val image
+62027,PlantWild,plantwild_v2/corn rust/corn_rust_google_0009.jpg,Corn_(maize)___Common_rust_,,duplicate of a custom image
+62040,PlantWild,plantwild_v2/corn rust/corn_rust_google_0077.jpg,Corn_(maize)___Common_rust_,,exact duplicate
+62059,PlantWild,plantwild_v2/corn rust/corn_rust_google_0125.jpg,Corn_(maize)___Common_rust_,,exact duplicate
+62072,PlantWild,plantwild_v2/potato late blight/potato_late_blight_google_0035.jpg,Potato___Late_blight,,near-duplicate with a different label
+62080,PlantWild,plantwild_v2/potato late blight/potato_late_blight_google_0167.jpg,Potato___Late_blight,,near-duplicate with a different label
+62084,PlantWild,plantwild_v2/potato late blight/potato_late_blight_google_0030.jpg,Potato___Late_blight,,duplicate of a test image
+62086,PlantWild,plantwild_v2/potato late blight/potato_late_blight_google_0036.jpg,Potato___Late_blight,,near-duplicate with a different label
+62101,PlantWild,plantwild_v2/potato late blight/potato_late_blight_google_0015.jpg,Potato___Late_blight,,duplicate of a test image
+62102,PlantWild,plantwild_v2/potato late blight/potato_late_blight_google_0178.jpg,Potato___Late_blight,,near-duplicate with a different label
+62125,PlantWild,plantwild_v2/potato late blight/potato_late_blight_google_0038.jpg,Potato___Late_blight,,near-duplicate with a different label
+62133,PlantWild,plantwild_v2/potato late blight/potato_late_blight_google_0110.jpg,Potato___Late_blight,,near-duplicate with a different label
+62141,PlantWild,plantwild_v2/potato late blight/potato_late_blight_google_0049.jpg,Potato___Late_blight,,near-duplicate with a different label
+62157,PlantWild,plantwild_v2/potato late blight/potato_late_blight_google_0225.jpg,Potato___Late_blight,,near-duplicate with a different label
+62160,PlantWild,plantwild_v2/potato late blight/potato_late_blight_10.jpg,Potato___Late_blight,,near-duplicate with a different label
+62184,PlantWild,plantwild_v2/tomato septoria leaf spot/tomato_septoria_leaf_spot_google_0032.jpg,Tomato___Septoria_leaf_spot,,exact duplicate
+62191,PlantWild,plantwild_v2/tomato septoria leaf spot/tomato_septoria_leaf_spot_google_0204.jpg,Tomato___Septoria_leaf_spot,,near-duplicate with a different label
+62192,PlantWild,plantwild_v2/tomato septoria leaf spot/tomato_septoria_leaf_spot_google_0052.jpg,Tomato___Septoria_leaf_spot,,near-duplicate with a different label
+62199,PlantWild,plantwild_v2/tomato septoria leaf spot/tomato_septoria_leaf_spot_google_0128.jpg,Tomato___Septoria_leaf_spot,,near-duplicate with a different label
+62208,PlantWild,plantwild_v2/tomato septoria leaf spot/tomato_septoria_leaf_spot_174.jpg,Tomato___Septoria_leaf_spot,,near-duplicate with a different label
+62219,PlantWild,plantwild_v2/tomato septoria leaf spot/tomato_septoria_leaf_spot_google_0001.jpg,Tomato___Septoria_leaf_spot,,near-duplicate with a different label
+62222,PlantWild,plantwild_v2/tomato septoria leaf spot/tomato_septoria_leaf_spot_google_0020.jpg,Tomato___Septoria_leaf_spot,,exact duplicate
+62225,PlantWild,plantwild_v2/tomato septoria leaf spot/tomato_septoria_leaf_spot_google_0189.jpg,Tomato___Septoria_leaf_spot,,duplicate of a val image
+62227,PlantWild,plantwild_v2/tomato septoria leaf spot/tomato_septoria_leaf_spot_google_0113.jpg,Tomato___Septoria_leaf_spot,,near-duplicate with a different label
+62235,PlantWild,plantwild_v2/tomato septoria leaf spot/tomato_septoria_leaf_spot_google_0191.jpg,Tomato___Septoria_leaf_spot,,exact duplicate
+62249,PlantWild,plantwild_v2/tomato septoria leaf spot/tomato_septoria_leaf_spot_google_0223.jpg,Tomato___Septoria_leaf_spot,,duplicate of a test image
+62250,PlantWild,plantwild_v2/tomato septoria leaf spot/tomato_septoria_leaf_spot_google_0153.jpg,Tomato___Septoria_leaf_spot,,duplicate of a test image
+62253,PlantWild,plantwild_v2/tomato septoria leaf spot/tomato_septoria_leaf_spot_google_0014.jpg,Tomato___Septoria_leaf_spot,,exact duplicate
+62255,PlantWild,plantwild_v2/tomato septoria leaf spot/tomato_septoria_leaf_spot_google_0027.jpg,Tomato___Septoria_leaf_spot,,duplicate of a val image
+62256,PlantWild,plantwild_v2/tomato septoria leaf spot/tomato_septoria_leaf_spot_google_0021.jpg,Tomato___Septoria_leaf_spot,,duplicate of a val image
+62259,PlantWild,plantwild_v2/tomato septoria leaf spot/tomato_septoria_leaf_spot_google_0081.jpg,Tomato___Septoria_leaf_spot,,near-duplicate with a different label
+62263,PlantWild,plantwild_v2/tomato septoria leaf spot/tomato_septoria_leaf_spot_google_0137.jpg,Tomato___Septoria_leaf_spot,,near-duplicate with a different label
+62269,PlantWild,plantwild_v2/tomato septoria leaf spot/tomato_septoria_leaf_spot_6.jpg,Tomato___Septoria_leaf_spot,,near-duplicate with a different label
+62283,PlantWild,plantwild_v2/tomato septoria leaf spot/tomato_septoria_leaf_spot_243.jpg,Tomato___Septoria_leaf_spot,,near-duplicate with a different label
+62284,PlantWild,plantwild_v2/tomato septoria leaf spot/tomato_septoria_leaf_spot_google_0205.jpg,Tomato___Septoria_leaf_spot,,near-duplicate with a different label
+62288,PlantWild,plantwild_v2/tomato septoria leaf spot/tomato_septoria_leaf_spot_google_0070.jpg,Tomato___Septoria_leaf_spot,,near-duplicate with a different label
+62296,PlantWild,plantwild_v2/tomato septoria leaf spot/tomato_septoria_leaf_spot_google_0195.jpg,Tomato___Septoria_leaf_spot,,exact duplicate
+62299,PlantWild,plantwild_v2/tomato septoria leaf spot/tomato_septoria_leaf_spot_google_0059.jpg,Tomato___Septoria_leaf_spot,,near-duplicate with a different label
+62302,PlantWild,plantwild_v2/tomato septoria leaf spot/tomato_septoria_leaf_spot_google_0098.jpg,Tomato___Septoria_leaf_spot,,duplicate of a val image
+62305,PlantWild,plantwild_v2/tomato septoria leaf spot/tomato_septoria_leaf_spot_google_0255.jpg,Tomato___Septoria_leaf_spot,,near-duplicate with a different label
+62307,PlantWild,plantwild_v2/tomato septoria leaf spot/tomato_septoria_leaf_spot_google_0061.jpg,Tomato___Septoria_leaf_spot,,near-duplicate with a different label
+62308,PlantWild,plantwild_v2/tomato septoria leaf spot/tomato_septoria_leaf_spot_google_0026.jpg,Tomato___Septoria_leaf_spot,,exact duplicate
+62335,PlantWild,plantwild_v2/tomato mosaic virus/tomato_mosaic_virus_1.jpg,Tomato___Tomato_mosaic_virus,,near-duplicate with a different label
+62343,PlantWild,plantwild_v2/tomato mosaic virus/tomato_mosaic_virus_143.jpg,Tomato___Tomato_mosaic_virus,,near-duplicate with a different label
+62352,PlantWild,plantwild_v2/tomato mosaic virus/tomato_mosaic_virus_16.jpg,Tomato___Tomato_mosaic_virus,,near-duplicate with a different label
+62361,PlantWild,plantwild_v2/tomato mosaic virus/tomato_mosaic_virus_13.jpg,Tomato___Tomato_mosaic_virus,,near-duplicate with a different label
+62365,PlantWild,plantwild_v2/tomato mosaic virus/tomato_mosaic_virus_2.jpg,Tomato___Tomato_mosaic_virus,,near-duplicate with a different label
+62410,PlantWild,plantwild_v2/apple scab/apple_scab_33.jpg,Apple___Apple_scab,,near-duplicate with a different label
+62428,PlantWild,plantwild_v2/apple scab/apple_scab_google_0281.jpg,Apple___Apple_scab,,duplicate of a val image
+62437,PlantWild,plantwild_v2/apple scab/apple_scab_66.jpg,Apple___Apple_scab,,near-duplicate with a different label
+62450,PlantWild,plantwild_v2/apple scab/apple_scab_76.jpg,Apple___Apple_scab,,near-duplicate with a different label
+62456,PlantWild,plantwild_v2/apple scab/apple_scab_google_0223.jpg,Apple___Apple_scab,,near-duplicate with a different label
+62480,PlantWild,plantwild_v2/apple scab/apple_scab_google_0014.jpg,Apple___Apple_scab,,duplicate of a custom image
+62489,PlantWild,plantwild_v2/apple scab/apple_scab_62.jpg,Apple___Apple_scab,,near-duplicate with a different label
+62499,PlantWild,plantwild_v2/apple scab/apple_scab_65.jpg,Apple___Apple_scab,,near-duplicate with a different label
+62543,PlantWild,plantwild_v2/apple scab/apple_scab_google_0065.jpg,Apple___Apple_scab,,exact duplicate
+62562,PlantWild,plantwild_v2/apple scab/apple_scab_google_0078.jpg,Apple___Apple_scab,,duplicate of a test image
+62647,PlantWild,plantwild_v2/bell pepper bacterial spot/bell_pepper_bacterial_spot_Google_0000.jpg,"Pepper,_bell___Bacterial_spot",,exact duplicate
+62657,PlantWild,plantwild_v2/bell pepper bacterial spot/bell_pepper_bacterial_spot_Bing_0063.jpg,"Pepper,_bell___Bacterial_spot",,duplicate of a test image
+62660,PlantWild,plantwild_v2/bell pepper bacterial spot/bell_pepper_bacterial_spot_Google_0050.jpg,"Pepper,_bell___Bacterial_spot",,near-duplicate with a different label
+62673,PlantWild,plantwild_v2/bell pepper bacterial spot/bell_pepper_bacterial_spot_Google_0160.jpg,"Pepper,_bell___Bacterial_spot",,exact duplicate
+62674,PlantWild,plantwild_v2/bell pepper bacterial spot/bell_pepper_bacterial_spot_Bing_0019.jpg,"Pepper,_bell___Bacterial_spot",,extra copy in val/test
+62689,PlantWild,plantwild_v2/bell pepper bacterial spot/bell_pepper_bacterial_spot_Bing_0013.jpg,"Pepper,_bell___Bacterial_spot",,extra copy in val/test
+62690,PlantWild,plantwild_v2/bell pepper bacterial spot/bell_pepper_bacterial_spot_Bing_0110.jpg,"Pepper,_bell___Bacterial_spot",,duplicate of a test image
+62695,PlantWild,plantwild_v2/bell pepper bacterial spot/bell_pepper_bacterial_spot_Google_0008.jpg,"Pepper,_bell___Bacterial_spot",,extra copy in val/test
+62696,PlantWild,plantwild_v2/bell pepper bacterial spot/bell_pepper_bacterial_spot_Google_0032.jpg,"Pepper,_bell___Bacterial_spot",,extra copy in val/test
+62697,PlantWild,plantwild_v2/bell pepper bacterial spot/bell_pepper_bacterial_spot_Bing_0006.jpg,"Pepper,_bell___Bacterial_spot",,duplicate of a val image
+62698,PlantWild,plantwild_v2/bell pepper bacterial spot/bell_pepper_bacterial_spot_Bing_0044.jpg,"Pepper,_bell___Bacterial_spot",,extra copy in val/test
+62703,PlantWild,plantwild_v2/bell pepper bacterial spot/bell_pepper_bacterial_spot_Bing_0062.jpg,"Pepper,_bell___Bacterial_spot",,duplicate of a val image
+62705,PlantWild,plantwild_v2/bell pepper bacterial spot/bell_pepper_bacterial_spot_Google_0024.jpg,"Pepper,_bell___Bacterial_spot",,extra copy in val/test
+62710,PlantWild,plantwild_v2/squash powdery mildew/squash_powdery_mildew_google_0104.jpg,Squash___Powdery_mildew,,duplicate of a val image
+62779,PlantWild,plantwild_v2/squash powdery mildew/squash_powdery_mildew_google_0106.jpg,Squash___Powdery_mildew,,near-duplicate with a different label
+62780,PlantWild,plantwild_v2/squash powdery mildew/squash_powdery_mildew_google_0032.jpg,Squash___Powdery_mildew,,exact duplicate
+62786,PlantWild,plantwild_v2/squash powdery mildew/squash_powdery_mildew_google_0093.jpg,Squash___Powdery_mildew,,exact duplicate
+62868,PlantWild,plantwild_v2/squash powdery mildew/squash_powdery_mildew_google_0376.jpg,Squash___Powdery_mildew,,duplicate of a val image
+62875,PlantWild,plantwild_v2/squash powdery mildew/squash_powdery_mildew_google_0378.jpg,Squash___Powdery_mildew,,duplicate of a val image
+65282,Background,256_ObjectCategories/186.skunk/186_0007.jpg,Background,,exact duplicate
+65917,Background,256_ObjectCategories/234.tweezer/234_0012.jpg,Background,,extra copy in val/test
+66093,Background,256_ObjectCategories/248.yarmulke/248_0006.jpg,Background,,near-duplicate with a different label

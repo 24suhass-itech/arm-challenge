@@ -1,0 +1,20 @@
+id,dataset,member,expected,seen_in_training_by,disease_model_pred,disease_model_conf,disease_model_correct,disease_model_top3,unified_pred,unified_conf,unified_correct,unified_top3,six_dataset_pred,six_dataset_conf,six_dataset_correct,six_dataset_top3
+62891,Custom,test images\apple_scab_1.jpg,Apple___Apple_scab,,Apple___Apple_scab,87.1,True,True,Apple___Apple_scab,76.5,True,True,Apple___Apple_scab,100.0,True,True
+62892,Custom,test images\potato_early_blight_1.jpg,Potato___Early_blight,,Potato___Early_blight,32.7,True,True,Potato___Late_blight,22.0,False,True,Potato___Early_blight,95.5,True,True
+62893,Custom,test images\apple_black_rot_2.jpg,Apple___Black_rot,,Apple___Cedar_apple_rust,55.1,False,False,Apple___Cedar_apple_rust,55.3,False,False,Apple___Cedar_apple_rust,74.6,False,True
+62894,Custom,test images\apple_black_rot_3.jpg,Apple___Black_rot,"six_dataset,unified",Apple___Apple_scab,23.2,False,False,Apple___Cedar_apple_rust,83.5,False,False,Apple___Cedar_apple_rust,72.4,False,False
+62895,Custom,test images\apple_black_rot_4.jpg,Apple___Black_rot,,Apple___Apple_scab,75.4,False,False,Apple___Apple_scab,41.9,False,False,Tomato___Septoria_leaf_spot,47.4,False,False
+62896,Custom,test images\grape_black_rot_2.jpg,Grape___Black_rot,,Grape___Black_rot,54.9,True,True,Grape___Black_rot,81.4,True,True,Grape___Black_rot,100.0,True,True
+62897,Custom,test images\grape_black_rot_4.jpg,Grape___Black_rot,,Grape___Black_rot,38.2,True,True,Grape___Black_rot,54.4,True,True,Grape___Black_rot,24.2,True,True
+62898,Custom,test images\strawberry_leaf_scorch_5.jpg,Strawberry___Leaf_scorch,,Strawberry___Leaf_scorch,79.9,True,True,Strawberry___healthy,54.8,False,True,Strawberry___Leaf_scorch,89.6,True,True
+62899,Custom,test images\tomato_bacterial_spot_4.jpg,Tomato___Bacterial_spot,,Tomato___Septoria_leaf_spot,63.8,False,True,Tomato___Bacterial_spot,47.9,True,True,Tomato___Bacterial_spot,67.0,True,True
+62900,Custom,test images\tomato_bacterial_spot_5.jpg,Tomato___Bacterial_spot,six_dataset,Tomato___Septoria_leaf_spot,71.4,False,True,Tomato___Septoria_leaf_spot,64.9,False,True,Tomato___Septoria_leaf_spot,60.0,False,True
+62901,Custom,test images\tomato_leaf_mold_3.jpg,Tomato___Leaf_Mold,,Tomato___Leaf_Mold,25.5,True,True,"Pepper,_bell___Bacterial_spot",29.5,False,True,Apple___Apple_scab,84.3,False,False
+62902,Custom,test images\apple_scab_2 (1).jpg,Apple___Apple_scab,"six_dataset,unified",Apple___Apple_scab,90.8,True,True,Apple___Apple_scab,97.7,True,True,Apple___Apple_scab,100.0,True,True
+62903,Custom,test images\corn_common_rust_1 (1).jpg,Corn_(maize)___Common_rust_,six_dataset,Corn_(maize)___Common_rust_,90.6,True,True,Corn_(maize)___Common_rust_,92.6,True,True,Corn_(maize)___Common_rust_,99.9,True,True
+62904,Custom,test images\potato_early_blight_2 (1).jpg,Potato___Early_blight,,Potato___Early_blight,31.8,True,True,Tomato___Bacterial_spot,21.0,False,True,Potato___Early_blight,46.0,True,True
+62905,Custom,test images\images (10).jpg,,six_dataset,Apple___Apple_scab,86.2,False,False,Apple___Apple_scab,82.1,False,False,Apple___Apple_scab,97.5,False,False
+62906,Custom,test images\images (6).jpg,,six_dataset,Corn_(maize)___Common_rust_,90.6,False,False,Corn_(maize)___Common_rust_,92.6,False,False,Corn_(maize)___Common_rust_,99.9,False,False
+62907,Custom,test images\images (7).jpg,,"six_dataset,unified",Corn_(maize)___Common_rust_,85.0,False,False,Corn_(maize)___Common_rust_,79.4,False,False,Corn_(maize)___Common_rust_,99.5,False,False
+62908,Custom,test images\images (8).jpg,,"six_dataset,unified",Corn_(maize)___Northern_Leaf_Blight,92.8,False,False,Corn_(maize)___Northern_Leaf_Blight,84.7,False,False,Corn_(maize)___Common_rust_,84.7,False,False
+62909,Custom,test images\images (9).jpg,,"six_dataset,unified",Apple___Apple_scab,90.8,False,False,Apple___Apple_scab,97.7,False,False,Apple___Apple_scab,100.0,False,False

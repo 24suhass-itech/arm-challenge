@@ -1,0 +1,28 @@
+# Whitelist: only the new models (disease model + pest model), their training code, results and the report
+# are published. Everything else (old models, datasets, caches) stays local.
+/*
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/disease_model/
+!/pest_model/
+!/docs/
+!/test images/
+
+# old models and old experiments (never pushed)
+/checkpoints/
+/mixed_finetuning/
+/six_dataset_training/
+/unified_training/
+/finetuning/
+/results/
+/splits/
+/datasets/
+
+# large / regenerable / machine-specific files inside the new folders
+**/cache/
+**/__pycache__/
+**/*_last.pth
+**/index.csv
+**/*log*.txt
+**/train_err.txt
