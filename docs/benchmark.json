@@ -1,0 +1,88 @@
+{
+  "device": {
+    "cpu": "AMD Ryzen 5 5600H with Radeon Graphics",
+    "cores": 6,
+    "threads": 12,
+    "ram_gb": 7.3,
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.14.7",
+    "torch": "2.15.0+cpu",
+    "executorch": "1.6.0"
+  },
+  "vision": {
+    "disease_pte_ms": 15.0,
+    "pest_pte_ms": 34.7,
+    "disease_eager_ms": 16.8,
+    "pest_eager_ms": 46.9,
+    "severity_ms": 4.7
+  },
+  "llama": {
+    "load_s": 4.9,
+    "runs": [
+      {
+        "image": "tomato_early_blight_1.jpg",
+        "diagnosis": "Tomato: Early blight",
+        "confidence": 0.976,
+        "severity": "moderate",
+        "vision_s": 0.09,
+        "advice_s": 24.2,
+        "translate_s": 0.0,
+        "prompt tokens": 640,
+        "prefill s": 13.98,
+        "new tokens": 144,
+        "tokens/s": 14.1
+      },
+      {
+        "image": "apple_scab_1.jpg",
+        "diagnosis": "Apple: Apple scab",
+        "confidence": 0.871,
+        "severity": "mild",
+        "vision_s": 0.56,
+        "advice_s": 28.6,
+        "translate_s": 0.0,
+        "prompt tokens": 660,
+        "prefill s": 6.89,
+        "new tokens": 253,
+        "tokens/s": 11.7
+      },
+      {
+        "image": "potato_early_blight_1.jpg",
+        "diagnosis": "Potato: Early blight",
+        "confidence": 0.327,
+        "severity": "moderate",
+        "vision_s": 0.18,
+        "advice_s": 16.3,
+        "translate_s": 0.0,
+        "prompt tokens": 653,
+        "prefill s": 6.82,
+        "new tokens": 136,
+        "tokens/s": 14.3
+      }
+    ]
+  },
+  "translation": {
+    "load_s": 28.7,
+    "beams": 4,
+    "runs": {
+      "Hindi": 20.5,
+      "Kannada": 21.1,
+      "Tamil": 20.3
+    }
+  },
+  "memory_mb": {
+    "start": 211,
+    "vision_models": 238,
+    "plus_llama": 504,
+    "plus_translator": 1224,
+    "peak": 1819
+  },
+  "sizes_mb": {
+    "llama_original": 2357.2,
+    "llama_pte": 765.3,
+    "disease_pth": 6.1,
+    "disease_pte": 6.0,
+    "pest_pth": 16.1,
+    "pest_pte": 15.8,
+    "translator": 1047.5
+  }
+}

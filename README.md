@@ -5,7 +5,8 @@ Offline crop doctor for farmers: take one photo of a leaf or insect and get the 
 internet. Every model runs on the Arm CPU of a **Raspberry Pi 5** through **ExecuTorch**, and the advice is
 written by **Llama 3.2 1B-Instruct**.
 
-Full write-up with charts: [docs/KrishiRakshak_AI_Project_Report.pdf](docs/KrishiRakshak_AI_Project_Report.pdf)
+Final project report (methodology, results, hardware utilisation, optimisation):
+[docs/KrishiRakshak_AI_Final_Report.pdf](docs/KrishiRakshak_AI_Final_Report.pdf)
 
 ## How it works
 
@@ -162,7 +163,7 @@ python disease_model/build_index.py && python disease_model/make_splits.py
 python disease_model/train.py && python disease_model/evaluate.py
 python pest_model/prepare.py && python pest_model/train.py && python pest_model/evaluate.py
 python advisor/export_vision.py                 # refresh the .pte files
-python docs/make_report.py
+python docs/benchmark.py && python docs/make_final_report.py   # (advisory env for the benchmark)
 ```
 
 Photos in `test images/` are kept out of the disease model's training split; remove
