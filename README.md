@@ -54,18 +54,17 @@ photo ──► VISION PIPELINE ────────────────
 
 ```
 Photo     : test images/tomato_early_blight_1.jpg
-Disease   : Tomato: Early blight 97.6%
-Diagnosis : Tomato: Early blight (disease, confidence 98%, confident)
-Severity  : moderate (24% of leaf)
+Disease   : Tomato: Early blight 99.1%
+Diagnosis : Tomato: Early blight (disease, confidence 99%, confident)
+Severity  : severe (44% of leaf)
 Region    : Karnataka | season: rabi | language: English
 Advice    : [llama-executorch]
-Problem: Your tomato has Early blight. About 24% of the leaf is affected, so the damage is moderate.
+Problem: Your tomato has Early blight. About 44% of the leaf is affected, so the damage is severe.
 What to do:
 1. Remove the infected lower leaves.
-2. Mulch and stake the plants to prevent soil splash.
-3. Use Trichoderma or Neem-based sprays to control the disease.
-4. Mancozeb 75 WP is a good option for controlling the disease.
-5. Repeat the treatment every 10-15 days.
+2. Mulch and stake the plants to prevent soil from splashing on the leaves.
+3. Use Trichoderma or Neem-based sprays to control the fungus.
+4. Use Mancozeb 75 WP to control the fungus.
 Prevention: Spray at first spots, repeat every 10-15 days.
 Safety: Wear gloves and a mask when spraying, ... Kisan Call Centre 1800-180-1551.
 ```
@@ -124,7 +123,7 @@ deploy/raspberry_pi/     setup script, systemd service, kiosk auto-start, bundle
 disease_model/           disease model: index, leakage-free splits, training, evaluation
 pest_model/              pest model: IP102 preparation, training, evaluation
 docs/                    project report (PDF) and the script that builds it
-test images/             web photos (plus one PlantVillage training photo) for a quick check
+test images/             42 held-out dataset photos for a quick check (one per disease class, 4 pests)
 ```
 
 ## Run it
@@ -166,8 +165,10 @@ python advisor/export_vision.py                 # refresh the .pte files
 python docs/benchmark.py && python docs/make_final_report.py   # (advisory env for the benchmark)
 ```
 
-Photos in `test images/` are kept out of the disease model's training split; remove
-`tomato_early_blight_1.jpg` (a PlantVillage training photo) before rebuilding the index.
+Photos in `test images/` come from the models' own held-out test splits: one PlantVillage photo per disease
+class (`<crop>_<disease>_1.jpg`) and four IP102 pest photos (`pest_<name>_1.jpg`). The models never trained on
+them, and the deployed pipeline gets all 42 right in auto mode (93.6–99.5% confidence). They are copies of
+dataset images, so move the folder out of the way before rebuilding the index.
 
 ## Status
 
