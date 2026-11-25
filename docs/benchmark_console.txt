@@ -1,0 +1,472 @@
+power sensor: battery discharge rate (Windows WMI BatteryStatus) - whole-laptop power (screen included) from the battery; Windows refreshes it only every few seconds, so short stages are approximate.
+measuring idle power for 120 s ...
+disease_pte: median 16.12 ms, p90 17.29 ms, None W
+pest_pte: median 33.09 ms, p90 35.21 ms, None W
+disease_eager: median 16.61 ms, p90 17.88 ms, None W
+pest_eager: median 44.21 ms, p90 48.05 ms, None W
+severity: median 3.56 ms, p90 3.84 ms, None W
+diagnose_both_models: median 50.06 ms, p90 53.36 ms, None W
+I tokenizers:C:\tk\src\regex.cpp:40] Registering override fallback regex
+Using Tiktokenizer
+{'image': 'tomato_early_blight_1.jpg', 'diagnosis': 'Tomato: Early blight', 'confidence': 0.991, 'severity': 'severe', 'vision_s': 0.06, 'advice_s': 20.8, 'translate_s': 0.0, 'prompt tokens': 640, 'prefill s': 11.96, 'new tokens': 135, 'tokens/s': 15.4}
+{'image': 'apple_scab_1.jpg', 'diagnosis': 'Apple: Apple scab', 'confidence': 0.968, 'severity': 'moderate', 'vision_s': 0.15, 'advice_s': 22.6, 'translate_s': 0.0, 'prompt tokens': 660, 'prefill s': 6.96, 'new tokens': 232, 'tokens/s': 14.8}
+{'image': 'potato_early_blight_1.jpg', 'diagnosis': 'Potato: Early blight', 'confidence': 0.976, 'severity': 'severe', 'vision_s': 0.05, 'advice_s': 17.4, 'translate_s': 0.0, 'prompt tokens': 648, 'prefill s': 6.95, 'new tokens': 161, 'tokens/s': 15.4}
+WARNING:torchao.kernel.intmm:Warning: Detected no triton, on systems without Triton certain kernels will not work
+W1125 22:29:59.991000 9000 Lib\site-packages\torch\utils\_pytree.py:646] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+Hindi 18.9
+Kannada 19.4
+Tamil 18.2
+waiting for the next battery charge update ...
+{
+  "device": {
+    "cpu": "AMD Ryzen 5 5600H with Radeon Graphics",
+    "cores": 6,
+    "threads": 12,
+    "ram_gb": 7.3,
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.14.7",
+    "torch": "2.15.0+cpu",
+    "executorch": "1.6.0"
+  },
+  "vision": {
+    "disease_pte_ms": 16.4,
+    "pest_pte_ms": 33.7,
+    "disease_eager_ms": 15.7,
+    "pest_eager_ms": 44.9,
+    "severity_ms": 4.3
+  },
+  "llama": {
+    "load_s": 3.9,
+    "runs": [
+      {
+        "image": "tomato_early_blight_1.jpg",
+        "diagnosis": "Tomato: Early blight",
+        "confidence": 0.991,
+        "severity": "severe",
+        "vision_s": 0.06,
+        "advice_s": 20.8,
+        "translate_s": 0.0,
+        "prompt tokens": 640,
+        "prefill s": 11.96,
+        "new tokens": 135,
+        "tokens/s": 15.4
+      },
+      {
+        "image": "apple_scab_1.jpg",
+        "diagnosis": "Apple: Apple scab",
+        "confidence": 0.968,
+        "severity": "moderate",
+        "vision_s": 0.15,
+        "advice_s": 22.6,
+        "translate_s": 0.0,
+        "prompt tokens": 660,
+        "prefill s": 6.96,
+        "new tokens": 232,
+        "tokens/s": 14.8
+      },
+      {
+        "image": "potato_early_blight_1.jpg",
+        "diagnosis": "Potato: Early blight",
+        "confidence": 0.976,
+        "severity": "severe",
+        "vision_s": 0.05,
+        "advice_s": 17.4,
+        "translate_s": 0.0,
+        "prompt tokens": 648,
+        "prefill s": 6.95,
+        "new tokens": 161,
+        "tokens/s": 15.4
+      }
+    ]
+  },
+  "translation": {
+    "load_s": 28.4,
+    "beams": 4,
+    "runs": {
+      "Hindi": 18.9,
+      "Kannada": 19.4,
+      "Tamil": 18.2
+    }
+  },
+  "memory_mb": {
+    "start": 212,
+    "vision_models": 239,
+    "plus_llama": 461,
+    "plus_translator": 1240,
+    "peak": 1380
+  },
+  "timing": {
+    "load_vision_models_s": 0.19,
+    "vision_ms": {
+      "disease_pte": {
+        "n": 3716,
+        "min": 7.22,
+        "mean": 16.14,
+        "median": 16.12,
+        "p90": 17.29,
+        "p99": 18.38,
+        "max": 30.45,
+        "std": 0.99,
+        "per_second": 61.9
+      },
+      "pest_pte": {
+        "n": 1801,
+        "min": 29.39,
+        "mean": 33.31,
+        "median": 33.09,
+        "p90": 35.21,
+        "p99": 37.07,
+        "max": 41.97,
+        "std": 1.4,
+        "per_second": 30.0
+      },
+      "disease_eager": {
+        "n": 3655,
+        "min": 12.52,
+        "mean": 16.42,
+        "median": 16.61,
+        "p90": 17.88,
+        "p99": 21.59,
+        "max": 81.02,
+        "std": 2.13,
+        "per_second": 60.9
+      },
+      "pest_eager": {
+        "n": 1348,
+        "min": 36.89,
+        "mean": 44.52,
+        "median": 44.21,
+        "p90": 48.05,
+        "p99": 57.14,
+        "max": 85.45,
+        "std": 3.51,
+        "per_second": 22.5
+      },
+      "severity": {
+        "n": 16565,
+        "min": 3.23,
+        "mean": 3.62,
+        "median": 3.56,
+        "p90": 3.84,
+        "p99": 4.72,
+        "max": 19.58,
+        "std": 0.32,
+        "per_second": 276.2
+      },
+      "diagnose_both_models": {
+        "n": 1190,
+        "min": 44.21,
+        "mean": 50.44,
+        "median": 50.06,
+        "p90": 53.36,
+        "p99": 58.35,
+        "max": 70.45,
+        "std": 2.38,
+        "per_second": 19.8
+      }
+    },
+    "llama_load_s": 3.9,
+    "advice": {
+      "runs": [
+        {
+          "image": "tomato_early_blight_1.jpg",
+          "end_to_end_s": 20.81,
+          "vision_s": 0.06,
+          "advice_s": 20.8,
+          "prompt_tokens": 640,
+          "prefill_s": 11.96,
+          "prefill_tok_per_s": 53.5,
+          "time_to_first_token_s": 12.02,
+          "new_tokens": 135,
+          "decode_tok_per_s": 15.4,
+          "decode_s": 8.77
+        },
+        {
+          "image": "apple_scab_1.jpg",
+          "end_to_end_s": 22.81,
+          "vision_s": 0.15,
+          "advice_s": 22.6,
+          "prompt_tokens": 660,
+          "prefill_s": 6.96,
+          "prefill_tok_per_s": 94.8,
+          "time_to_first_token_s": 7.11,
+          "new_tokens": 232,
+          "decode_tok_per_s": 14.8,
+          "decode_s": 15.68
+        },
+        {
+          "image": "potato_early_blight_1.jpg",
+          "end_to_end_s": 17.51,
+          "vision_s": 0.05,
+          "advice_s": 17.4,
+          "prompt_tokens": 648,
+          "prefill_s": 6.95,
+          "prefill_tok_per_s": 93.2,
+          "time_to_first_token_s": 7.0,
+          "new_tokens": 161,
+          "decode_tok_per_s": 15.4,
+          "decode_s": 10.45
+        }
+      ],
+      "mean": {
+        "end_to_end_s": 20.38,
+        "time_to_first_token_s": 8.71,
+        "prefill_tok_per_s": 80.5,
+        "decode_tok_per_s": 15.2
+      }
+    },
+    "translator_load_s": 28.44,
+    "translate_s": {
+      "Hindi": 18.9,
+      "Kannada": 19.4,
+      "Tamil": 18.2
+    }
+  },
+  "power": {
+    "source": "battery remaining charge (Windows WMI BatteryStatus.RemainingCapacity)",
+    "note": "this laptop reports no discharge rate, so energy = drop in remaining charge (mWh) over each stage, interpolated between the 23 moments the charge value changed (median step 123.5 mWh). Whole-laptop power, screen included. Accurate for long stages (a minute or more); short stages are only indicative.",
+    "interval_s": 1.0,
+    "idle_w": 18.17,
+    "temp_start_c": null,
+    "temp_end_c": null,
+    "stages": {
+      "idle": {
+        "seconds": 120.0,
+        "samples": null,
+        "avg_cpu_pct": 11.5,
+        "max_temp_c": null,
+        "avg_w": 18.17,
+        "energy_j": 2179.9
+      },
+      "load_vision_models": {
+        "seconds": 0.19,
+        "samples": null,
+        "avg_cpu_pct": 10.2,
+        "max_temp_c": null,
+        "avg_w": 14.67,
+        "energy_j": 2.7,
+        "above_idle_w": -3.5,
+        "above_idle_j": -0.7
+      },
+      "disease_pte": {
+        "seconds": 60.0,
+        "samples": null,
+        "avg_cpu_pct": 21.2,
+        "max_temp_c": null,
+        "avg_w": 15.01,
+        "energy_j": 900.5,
+        "above_idle_w": -3.16,
+        "above_idle_j": -189.7,
+        "count": 3716,
+        "mj_per_inference": 242.34,
+        "above_idle_mj_per_inference": -51.05
+      },
+      "pest_pte": {
+        "seconds": 60.0,
+        "samples": null,
+        "avg_cpu_pct": 31.6,
+        "max_temp_c": null,
+        "avg_w": 16.55,
+        "energy_j": 992.9,
+        "above_idle_w": -1.62,
+        "above_idle_j": -97.3,
+        "count": 1801,
+        "mj_per_inference": 551.31,
+        "above_idle_mj_per_inference": -54.03
+      },
+      "disease_eager": {
+        "seconds": 60.02,
+        "samples": null,
+        "avg_cpu_pct": 54.7,
+        "max_temp_c": null,
+        "avg_w": 18.91,
+        "energy_j": 1135.0,
+        "above_idle_w": 0.74,
+        "above_idle_j": 44.5,
+        "count": 3655,
+        "mj_per_inference": 310.54,
+        "above_idle_mj_per_inference": 12.18
+      },
+      "pest_eager": {
+        "seconds": 60.01,
+        "samples": null,
+        "avg_cpu_pct": 55.0,
+        "max_temp_c": null,
+        "avg_w": 20.72,
+        "energy_j": 1243.3,
+        "above_idle_w": 2.55,
+        "above_idle_j": 152.8,
+        "count": 1348,
+        "mj_per_inference": 922.3,
+        "above_idle_mj_per_inference": 113.35
+      },
+      "severity": {
+        "seconds": 60.0,
+        "samples": null,
+        "avg_cpu_pct": 35.4,
+        "max_temp_c": null,
+        "avg_w": 19.22,
+        "energy_j": 1153.2,
+        "above_idle_w": 1.05,
+        "above_idle_j": 63.0,
+        "count": 16565,
+        "mj_per_inference": 69.62,
+        "above_idle_mj_per_inference": 3.8
+      },
+      "diagnose_both_models": {
+        "seconds": 60.03,
+        "samples": null,
+        "avg_cpu_pct": 32.3,
+        "max_temp_c": null,
+        "avg_w": 19.09,
+        "energy_j": 1145.9,
+        "above_idle_w": 0.92,
+        "above_idle_j": 55.2,
+        "count": 1190,
+        "mj_per_inference": 962.96,
+        "above_idle_mj_per_inference": 46.35
+      },
+      "phase_vision": {
+        "seconds": 372.97,
+        "samples": null,
+        "avg_cpu_pct": 37.8,
+        "max_temp_c": null,
+        "avg_w": 18.2,
+        "energy_j": 6788.0,
+        "above_idle_w": 0.03,
+        "above_idle_j": 11.2
+      },
+      "llama_load": {
+        "seconds": 3.9,
+        "samples": null,
+        "avg_cpu_pct": 15.7,
+        "max_temp_c": null,
+        "avg_w": 18.03,
+        "energy_j": 70.2,
+        "above_idle_w": -0.14,
+        "above_idle_j": -0.5
+      },
+      "advice_tomato_early_blight_1.jpg": {
+        "seconds": 20.81,
+        "samples": null,
+        "avg_cpu_pct": 66.6,
+        "max_temp_c": null,
+        "avg_w": 25.73,
+        "energy_j": 535.6,
+        "above_idle_w": 7.56,
+        "above_idle_j": 157.4,
+        "count": 135,
+        "mj_per_token": 3967.42,
+        "above_idle_mj_per_token": 1166.01
+      },
+      "advice_apple_scab_1.jpg": {
+        "seconds": 22.81,
+        "samples": null,
+        "avg_cpu_pct": 74.9,
+        "max_temp_c": null,
+        "avg_w": 23.97,
+        "energy_j": 547.0,
+        "above_idle_w": 5.8,
+        "above_idle_j": 132.4,
+        "count": 232,
+        "mj_per_token": 2357.64,
+        "above_idle_mj_per_token": 570.84
+      },
+      "advice_potato_early_blight_1.jpg": {
+        "seconds": 17.51,
+        "samples": null,
+        "avg_cpu_pct": 70.6,
+        "max_temp_c": null,
+        "avg_w": 23.97,
+        "energy_j": 419.8,
+        "above_idle_w": 5.8,
+        "above_idle_j": 101.7,
+        "count": 161,
+        "mj_per_token": 2607.75,
+        "above_idle_mj_per_token": 631.4
+      },
+      "phase_advice": {
+        "seconds": 61.14,
+        "samples": null,
+        "avg_cpu_pct": 71.3,
+        "max_temp_c": null,
+        "avg_w": 24.57,
+        "energy_j": 1502.5,
+        "above_idle_w": 6.4,
+        "above_idle_j": 391.5,
+        "count": 528,
+        "mj_per_token": 2845.64,
+        "above_idle_mj_per_token": 741.52
+      },
+      "translator_load": {
+        "seconds": 28.44,
+        "samples": null,
+        "avg_cpu_pct": 19.5,
+        "max_temp_c": null,
+        "avg_w": 21.95,
+        "energy_j": 624.3,
+        "above_idle_w": 3.78,
+        "above_idle_j": 107.5
+      },
+      "translate_Hindi": {
+        "seconds": 18.87,
+        "samples": null,
+        "avg_cpu_pct": 58.4,
+        "max_temp_c": null,
+        "avg_w": 20.83,
+        "energy_j": 393.2,
+        "above_idle_w": 2.66,
+        "above_idle_j": 50.2
+      },
+      "translate_Kannada": {
+        "seconds": 19.36,
+        "samples": null,
+        "avg_cpu_pct": 58.9,
+        "max_temp_c": null,
+        "avg_w": 20.83,
+        "energy_j": 403.3,
+        "above_idle_w": 2.66,
+        "above_idle_j": 51.5
+      },
+      "translate_Tamil": {
+        "seconds": 18.24,
+        "samples": null,
+        "avg_cpu_pct": 58.8,
+        "max_temp_c": null,
+        "avg_w": 20.17,
+        "energy_j": 367.9,
+        "above_idle_w": 2.0,
+        "above_idle_j": 36.4
+      },
+      "phase_translate": {
+        "seconds": 56.49,
+        "samples": null,
+        "avg_cpu_pct": 58.7,
+        "max_temp_c": null,
+        "avg_w": 20.62,
+        "energy_j": 1164.6,
+        "above_idle_w": 2.45,
+        "above_idle_j": 138.2
+      },
+      "whole_run": {
+        "seconds": 523.16,
+        "samples": null,
+        "avg_cpu_pct": 41.5,
+        "max_temp_c": null,
+        "avg_w": 19.41,
+        "energy_j": 10152.9,
+        "above_idle_w": 1.24,
+        "above_idle_j": 647.1
+      }
+    }
+  },
+  "sizes_mb": {
+    "llama_original": 2357.2,
+    "llama_pte": 765.3,
+    "disease_pth": 6.1,
+    "disease_pte": 6.0,
+    "pest_pth": 16.1,
+    "pest_pte": 15.8,
+    "translator": 1047.5
+  }
+}
