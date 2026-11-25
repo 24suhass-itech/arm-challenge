@@ -3,9 +3,9 @@
     python docs/benchmark.py          (run in the ExecuTorch environment, advisor/requirements.txt)
 
 Records memory after each model is loaded, vision latency (ExecuTorch .pte vs PyTorch eager .pth), severity,
-Llama prefill / decode speed, and translation time. Used by docs/make_final_report.py.
+Llama prefill / decode speed, and translation time.
 
-Also writes two extra sections (not used by the report yet):
+Also writes two extra sections:
   "timing" : full latency statistics (min / mean / median / p90 / p99 / max / std, throughput) for each vision stage,
              run back-to-back for --seconds, plus per-request end-to-end time, time to first token and token rates.
   "power"  : average power, energy and energy per inference / per token for each stage, measured against an idle

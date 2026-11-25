@@ -5,8 +5,8 @@ Offline crop doctor for farmers: take one photo of a leaf or insect and get the 
 internet. Every model runs on the Arm CPU of a **Raspberry Pi 5** through **ExecuTorch**, and the advice is
 written by **Llama 3.2 1B-Instruct**.
 
-Final project report (methodology, results, hardware utilisation, optimisation):
-[docs/KrishiRakshak_AI_Final_Report.pdf](docs/KrishiRakshak_AI_Final_Report.pdf)
+Benchmark report (timing, memory and power on the laptop and the Raspberry Pi 5):
+[docs/KrishiRakshak_AI_Benchmark_Results.pdf](docs/KrishiRakshak_AI_Benchmark_Results.pdf)
 
 ## How it works
 
@@ -69,8 +69,21 @@ Prevention: Spray at first spots, repeat every 10-15 days.
 Safety: Wear gloves and a mask when spraying, ... Kisan Call Centre 1800-180-1551.
 ```
 
-Timing on the laptop CPU: vision 0.05–0.3 s, Llama 12–19 s (≈ 650-token prompt, ≈ 19 tokens/s),
-translation 12–50 s. Raspberry Pi timings are not measured yet.
+### Benchmarks (`docs/benchmark.py`, CPU only)
+
+| | Raspberry Pi 5 (8 GB, 4× Cortex-A76) | Laptop (Ryzen 5 5600H) |
+|---|---|---|
+| Disease model `.pte` (median) | 6.1 ms (3.1× faster than PyTorch eager) | 16.1 ms (same as eager) |
+| Pest model `.pte` (median) | 39.4 ms (2.8× faster than PyTorch eager) | 33.1 ms (1.3× faster than eager) |
+| Llama decode speed | 9.6 tokens/s | 15.2 tokens/s |
+| Photo → full English advice (mean of 3) | 21.2 s | 20.4 s |
+| Translation (IndicTrans2, 4 beams) | not measured | ≈ 19 s per answer |
+| Peak memory | 2.0 GB | 1.4 GB (with translator) |
+| Power / energy per answered photo | ≈ 5.3 W, 112 J (PMIC rails) | ≈ 24.6 W, ≈ 500 J (whole laptop, from battery) |
+
+Almost all of the answer time is Llama (prompt reading + writing); vision is under 1%. The ExecuTorch
+speed-up is largest on the Arm CPU of the Pi. Full results and method: the
+[benchmark report](docs/KrishiRakshak_AI_Benchmark_Results.pdf).
 
 ## Models and results (held-out test sets)
 
@@ -122,7 +135,7 @@ advisor/                 on-device pipeline (ExecuTorch)
 deploy/raspberry_pi/     setup script, systemd service, kiosk auto-start, bundle builder
 disease_model/           disease model: index, leakage-free splits, training, evaluation
 pest_model/              pest model: IP102 preparation, training, evaluation
-docs/                    project report (PDF) and the script that builds it
+docs/                    benchmark script, its results (benchmark.json) and the benchmark report (PDF)
 test images/             42 held-out dataset photos for a quick check (one per disease class, 4 pests)
 ```
 
@@ -162,7 +175,7 @@ python disease_model/build_index.py && python disease_model/make_splits.py
 python disease_model/train.py && python disease_model/evaluate.py
 python pest_model/prepare.py && python pest_model/train.py && python pest_model/evaluate.py
 python advisor/export_vision.py                 # refresh the .pte files
-python docs/benchmark.py && python docs/make_final_report.py   # (advisory env for the benchmark)
+python docs/benchmark.py                        # advisory env; timing + power -> docs/benchmark.json
 ```
 
 Photos in `test images/` come from the models' own held-out test splits: one PlantVillage photo per disease
@@ -173,8 +186,9 @@ dataset images, so move the folder out of the way before rebuilding the index.
 ## Status
 
 Done: disease and pest detection, non-leaf rejection, severity, treatment advice with Llama 3.2 1B through
-ExecuTorch, region and season awareness, 22 Indian languages, Raspberry Pi 5 kiosk.
-Next: test on the Raspberry Pi 5, a "no pest" class for the pest model, more field photos.
+ExecuTorch, region and season awareness, 22 Indian languages, Raspberry Pi 5 kiosk, benchmarks on the
+laptop and the Raspberry Pi 5.
+Next: measure the translator on the Pi 5, a "no pest" class for the pest model, more field photos.
 
 Known limits: the 1B model sometimes calls a chemical "organic", repeats a step, or leaves out a dose;
 severity can be over-estimated on busy backgrounds; the pest model has no "no pest" class yet, so it is only
