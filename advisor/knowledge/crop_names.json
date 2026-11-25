@@ -1,0 +1,23 @@
+{
+  "_about": "Local crop names used during translation (machine translation mixed up some crops, e.g. tomato -> onion). Keys are the lower-case crop words used in the English advice.",
+  "tomato":     {"Hindi": "टमाटर", "Kannada": "ಟೊಮೆಟೊ", "Tamil": "தக்காளி", "Telugu": "టమాటా", "Marathi": "टोमॅटो"},
+  "potato":     {"Hindi": "आलू", "Kannada": "ಆಲೂಗಡ್ಡೆ", "Tamil": "உருளைக்கிழங்கு", "Telugu": "బంగాళాదుంప", "Marathi": "बटाटा"},
+  "maize":      {"Hindi": "मक्का", "Kannada": "ಮೆಕ್ಕೆಜೋಳ", "Tamil": "மக்காச்சோளம்", "Telugu": "మొక్కజొన్న", "Marathi": "मका"},
+  "corn":       {"Hindi": "मक्का", "Kannada": "ಮೆಕ್ಕೆಜೋಳ", "Tamil": "மக்காச்சோளம்", "Telugu": "మొక్కజొన్న", "Marathi": "मका"},
+  "grape":      {"Hindi": "अंगूर", "Kannada": "ದ್ರಾಕ್ಷಿ", "Tamil": "திராட்சை", "Telugu": "ద్రాక్ష", "Marathi": "द्राक्ष"},
+  "apple":      {"Hindi": "सेब", "Kannada": "ಸೇಬು", "Tamil": "ஆப்பிள்", "Telugu": "ఆపిల్", "Marathi": "सफरचंद"},
+  "strawberry": {"Hindi": "स्ट्रॉबेरी", "Kannada": "ಸ್ಟ್ರಾಬೆರಿ", "Tamil": "ஸ்ட்ராபெர்ரி", "Telugu": "స్ట్రాబెర్రీ", "Marathi": "स्ट्रॉबेरी"},
+  "capsicum":   {"Hindi": "शिमला मिर्च", "Kannada": "ದೊಣ್ಣೆ ಮೆಣಸಿನಕಾಯಿ", "Tamil": "குடைமிளகாய்", "Telugu": "క్యాప్సికమ్", "Marathi": "ढोबळी मिरची"},
+  "citrus":     {"Hindi": "नींबू-संतरा", "Kannada": "ನಿಂಬೆ-ಕಿತ್ತಳೆ", "Tamil": "எலுமிச்சை-ஆரஞ்சு", "Telugu": "నిమ్మ-నారింజ", "Marathi": "लिंबू-संत्रा"},
+  "peach":      {"Hindi": "आड़ू", "Kannada": "ಪೀಚ್", "Tamil": "பீச்", "Telugu": "పీచ్", "Marathi": "पीच"},
+  "cherry":     {"Hindi": "चेरी", "Kannada": "ಚೆರ್ರಿ", "Tamil": "செர்ரி", "Telugu": "చెర్రీ", "Marathi": "चेरी"},
+  "soybean":    {"Hindi": "सोयाबीन", "Kannada": "ಸೋಯಾಬೀನ್", "Tamil": "சோயாபீன்", "Telugu": "సోయాబీన్", "Marathi": "सोयाबीन"},
+  "squash":     {"Hindi": "कद्दू", "Kannada": "ಕುಂಬಳಕಾಯಿ", "Tamil": "பூசணி", "Telugu": "గుమ్మడికాయ", "Marathi": "भोपळा"},
+  "blueberry":  {"Hindi": "ब्लूबेरी", "Kannada": "ಬ್ಲೂಬೆರಿ", "Tamil": "புளூபெர்ரி", "Telugu": "బ్లూబెర్రీ", "Marathi": "ब्लूबेरी"},
+  "raspberry":  {"Hindi": "रास्पबेरी", "Kannada": "ರಾಸ್ಪ್ಬೆರಿ", "Tamil": "ராஸ்பெர்ரி", "Telugu": "రాస్ప్బెర్రీ", "Marathi": "रास्पबेरी"},
+  "rice":       {"Hindi": "धान", "Kannada": "ಭತ್ತ", "Tamil": "நெல்", "Telugu": "వరి", "Marathi": "भात"},
+  "wheat":      {"Hindi": "गेहूं", "Kannada": "ಗೋಧಿ", "Tamil": "கோதுமை", "Telugu": "గోధుమ", "Marathi": "गहू"},
+  "beet":       {"Hindi": "चुकंदर", "Kannada": "ಬೀಟ್ರೂಟ್", "Tamil": "பீட்ரூட்", "Telugu": "బీట్‌రూట్", "Marathi": "बीट"},
+  "alfalfa":    {"Hindi": "रिजका", "Kannada": "ಕುದುರೆ ಮೆಂತ್ಯ", "Tamil": "குதிரை மசால்", "Telugu": "లూసర్న్", "Marathi": "लसूणघास"},
+  "mango":      {"Hindi": "आम", "Kannada": "ಮಾವು", "Tamil": "மாம்பழம்", "Telugu": "మామిడి", "Marathi": "आंबा"}
+}

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=KrishiRakshak kiosk
+Comment=Opens the offline crop doctor full-screen
+Exec=__APP_DIR__/deploy/raspberry_pi/kiosk.sh
+X-GNOME-Autostart-enabled=true

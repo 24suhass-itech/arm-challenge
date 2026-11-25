@@ -1,0 +1,16 @@
+[Unit]
+Description=KrishiRakshak offline crop doctor (vision + Llama 3.2 via ExecuTorch)
+After=network.target
+
+[Service]
+User=__USER__
+WorkingDirectory=__APP_DIR__
+Environment=PYTHONUNBUFFERED=1
+# fewer translation beams = faster on the Pi CPU (4 is best quality)
+Environment=KR_TRANSLATE_BEAMS=2
+ExecStart=__VENV__/bin/python __APP_DIR__/advisor/server.py --host 127.0.0.1 --port 8000
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

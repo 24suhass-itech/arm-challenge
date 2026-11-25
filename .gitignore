@@ -7,6 +7,9 @@
 !/disease_model/
 !/pest_model/
 !/docs/
+!/advisor/
+!/.gitattributes
+!/deploy/
 !/test images/
 
 # old models and old experiments (never pushed)
@@ -26,3 +29,13 @@
 **/index.csv
 **/*log*.txt
 **/train_err.txt
+
+# Llama weights and exported .pte (licensed by Meta, >1 GB; created by advisor/export_llama.py)
+/advisor/llama/
+# IndicTrans2 translator weights (1.1 GB; downloaded from Hugging Face, see advisor/README)
+/advisor/translator/
+/advisor/*log*.txt
+/advisor/export_err.txt
+
+# Raspberry Pi bundle (built by deploy/raspberry_pi/make_bundle.py)
+/KrishiRakshak_Pi/

@@ -1,0 +1,171 @@
+{
+  "_about": "Offline pest knowledge base for the 102 IP102 pest classes, organised into management groups. Doses are common Indian extension recommendations for knapsack sprays (per litre of water). Always follow the product label and local KVK advice.",
+  "groups": {
+    "aphids": {
+      "name": "Aphids", "damage": "Suck sap from tender shoots and leaves; curling, yellowing, sticky honeydew and sooty mould; some spread viruses.",
+      "cultural": ["Remove heavily infested shoots", "Avoid excess nitrogen", "Conserve ladybird beetles and lacewings", "Yellow sticky traps"],
+      "organic": ["Neem oil 1500 ppm 5 ml/L", "Strong water spray on small plants"],
+      "chemical": ["Imidacloprid 17.8 SL 0.3 ml/L", "Thiamethoxam 25 WG 0.3 g/L"],
+      "threshold": "Spray only when colonies are on many shoots and natural enemies are few."
+    },
+    "planthoppers": {
+      "name": "Planthoppers", "damage": "Suck sap at the base of rice tillers; plants yellow and dry in circular patches ('hopper burn').",
+      "cultural": ["Avoid excess nitrogen", "Alternate wetting and drying; drain the field for 3-4 days", "Leave 30 cm alleys every 2-3 m for air flow", "Resistant varieties"],
+      "organic": ["Neem oil 1500 ppm 5 ml/L directed at the plant base"],
+      "chemical": ["Pymetrozine 50 WG 0.6 g/L", "Dinotefuran 20 SG 0.4 g/L", "Spray at the base of the plants; avoid synthetic pyrethroids (they cause resurgence)"],
+      "threshold": "About 10 hoppers per hill."
+    },
+    "leafhoppers_bugs": {
+      "name": "Leafhoppers, plant bugs and lanternflies", "damage": "Suck sap from leaves, flowers and young fruit; leaf edges yellow or burn, flowers and fruitlets drop.",
+      "cultural": ["Remove weeds that shelter bugs", "Prune to open the canopy", "Light traps for leafhoppers"],
+      "organic": ["Neem oil 1500 ppm 5 ml/L"],
+      "chemical": ["Imidacloprid 17.8 SL 0.3 ml/L", "Thiamethoxam 25 WG 0.3 g/L", "On mango, spray at panicle emergence, not during full bloom, to protect pollinators"],
+      "threshold": "Spray when many insects are seen per shoot or panicle."
+    },
+    "stem_borers": {
+      "name": "Stem and shoot borers", "damage": "Larvae bore into stems or shoots; central shoot dries ('dead heart'), panicles turn white and empty ('white ear'), shoots wilt.",
+      "cultural": ["Clip leaf tips of rice seedlings before transplanting (removes egg masses)", "Pheromone traps 5 per acre", "Cut and destroy affected shoots", "Harvest close to the ground and destroy stubble"],
+      "organic": ["Release Trichogramma egg parasitoids (1 card, 20,000 eggs per acre) weekly", "Neem seed kernel extract 5%"],
+      "chemical": ["Chlorantraniliprole 18.5 SC 0.3 ml/L", "Cartap hydrochloride 4 G granules 10 kg per acre in standing water (rice)"],
+      "threshold": "Rice: 5% dead hearts or 1 egg mass per square metre."
+    },
+    "caterpillars": {
+      "name": "Leaf-eating caterpillars, armyworms and cutworms", "damage": "Larvae eat leaves, fold leaves, cut seedlings at the base or bore into cobs and fruit.",
+      "cultural": ["Hand-pick and destroy larvae and egg masses", "Light traps and pheromone traps", "Deep summer ploughing exposes pupae", "Cutworms: flood irrigation and evening scouting at the plant base"],
+      "organic": ["Bacillus thuringiensis (Bt) 2 g/L", "Neem seed kernel extract 5%", "Maize whorl: apply sand mixed with lime"],
+      "chemical": ["Emamectin benzoate 5 SG 0.4 g/L", "Chlorantraniliprole 18.5 SC 0.3 ml/L", "Spinetoram 11.7 SC 0.5 ml/L (fall armyworm in maize)"],
+      "threshold": "Spray when young larvae are found on 10% of plants; young larvae are much easier to control."
+    },
+    "beetles_weevils": {
+      "name": "Beetles and weevils", "damage": "Adults chew holes in leaves, flowers or fruit; some larvae feed on roots, seeds or inside fruit.",
+      "cultural": ["Hand-collect adults in the morning", "Light traps", "Collect and destroy fallen fruit (mango weevils)", "Blister beetles: use gloves, the body fluid blisters skin"],
+      "organic": ["Neem oil 1500 ppm 5 ml/L", "Beauveria bassiana 5 g/L"],
+      "chemical": ["Lambda-cyhalothrin 5 EC 1 ml/L", "Thiamethoxam 25 WG 0.3 g/L"],
+      "threshold": "Spray when many leaves or flowers are being damaged."
+    },
+    "soil_pests": {
+      "name": "Soil pests (white grubs, wireworms, mole crickets, chafers)", "damage": "Feed on roots and underground stems; plants wilt and die in patches; seedlings cut below the soil.",
+      "cultural": ["Deep summer ploughing", "Collect adult beetles at light traps after the first rains", "Use well-decomposed manure only"],
+      "organic": ["Neem cake 100 kg per acre at sowing", "Metarhizium anisopliae or Beauveria bassiana mixed with manure"],
+      "chemical": ["Use a soil insecticide recommended by your local KVK at sowing"],
+      "threshold": "Act when patches of wilting plants with damaged roots are found."
+    },
+    "mites": {
+      "name": "Mites", "damage": "Tiny pests on the leaf underside; speckling, bronzing, curling, galls or felt-like patches; fine webbing.",
+      "cultural": ["Spray water on leaf undersides", "Remove heavily infested leaves", "Avoid pyrethroids that kill predatory mites"],
+      "organic": ["Wettable sulphur 80 WP 3 g/L", "Neem oil 1500 ppm 5 ml/L"],
+      "chemical": ["Spiromesifen 22.9 SC 1 ml/L", "Fenazaquin 10 EC 2 ml/L", "Abamectin 1.9 EC 0.5 ml/L"],
+      "threshold": "Spray when speckling spreads to many leaves."
+    },
+    "thrips": {
+      "name": "Thrips", "damage": "Rasp and suck leaves and flowers; silvery streaks, upward or downward curling, scarred fruit.",
+      "cultural": ["Blue sticky traps 10 per acre", "Remove weeds", "Avoid water stress"],
+      "organic": ["Neem oil 1500 ppm 5 ml/L", "Spinosad-based biopesticide"],
+      "chemical": ["Spinosad 45 SC 0.3 ml/L", "Spinetoram 11.7 SC 0.5 ml/L"],
+      "threshold": "Spray when curling or silvering appears on new growth."
+    },
+    "whiteflies": {
+      "name": "Whiteflies and blackflies", "damage": "Suck sap from the leaf underside; yellowing, honeydew and sooty mould; spread leaf curl viruses.",
+      "cultural": ["Yellow sticky traps 10 per acre", "Remove infested lower leaves and weeds", "Raise seedlings under insect-proof net"],
+      "organic": ["Neem oil 1500 ppm 5 ml/L"],
+      "chemical": ["Spiromesifen 22.9 SC 1 ml/L", "Diafenthiuron 50 WP 1 g/L"],
+      "threshold": "Spray when adults are seen on most leaves."
+    },
+    "scales_mealybugs": {
+      "name": "Scale insects and mealybugs", "damage": "Sessile sap-suckers on twigs, leaves and fruit; yellowing, twig dieback, honeydew and sooty mould.",
+      "cultural": ["Prune and burn heavily infested twigs", "Control ants that protect them (band trunks with sticky material)", "Release the ladybird Cryptolaemus montrouzieri (mealybugs) or Rodolia (cottony cushion scale)"],
+      "organic": ["Horticultural mineral oil 1-2% (10-20 ml/L)", "Neem oil 1500 ppm 5 ml/L + soap"],
+      "chemical": ["Buprofezin 25 SC 2 ml/L", "Imidacloprid 17.8 SL 0.3 ml/L for heavy infestations"],
+      "threshold": "Treat when colonies cover twigs or fruit."
+    },
+    "fruit_flies": {
+      "name": "Fruit flies", "damage": "Maggots feed inside fruit; fruit rots and drops early.",
+      "cultural": ["Collect fallen and infested fruit every few days and bury deeply (60 cm)", "Methyl eugenol traps 4-5 per acre", "Bag fruit where practical", "Harvest at maturity"],
+      "organic": ["Bait spray: protein hydrolysate or jaggery bait with a recommended insecticide, applied in spots"],
+      "chemical": ["Use a bait spray recommended by your local KVK; avoid cover sprays close to harvest"],
+      "threshold": "Start trapping before fruit ripening."
+    },
+    "gall_midges_flies": {
+      "name": "Gall midges, stem maggots and leaf-miner flies", "damage": "Maggots form galls, mine leaves or feed inside stems and flowers; silver shoots ('onion leaf') in rice, mined or galled leaves.",
+      "cultural": ["Grow resistant varieties", "Sow and transplant on time", "Remove and destroy galled or mined leaves and shoots", "Avoid excess nitrogen"],
+      "organic": ["Neem oil 1500 ppm 5 ml/L at early infestation"],
+      "chemical": ["Thiamethoxam 25 WG 0.3 g/L or a locally recommended insecticide at the early stage", "Leaf miners: Spinosad 45 SC 0.3 ml/L or Abamectin 1.9 EC 0.5 ml/L"],
+      "threshold": "Act early; once galls or mines are formed, sprays are less effective."
+    },
+    "tree_borers": {
+      "name": "Trunk and branch borers", "damage": "Larvae tunnel inside trunks and branches; sawdust-like frass, gum, wilting branches, tree decline.",
+      "cultural": ["Prune and burn infested branches", "Keep the trunk clean; remove loose bark", "Kill larvae in holes with a wire"],
+      "organic": ["Plug cleaned holes with mud after killing larvae"],
+      "chemical": ["Plug holes with cotton soaked in an insecticide recommended by your local KVK, then seal with mud"],
+      "threshold": "Inspect trunks regularly for fresh frass."
+    },
+    "locusts_grasshoppers": {
+      "name": "Locusts and grasshoppers", "damage": "Chew leaves and stems; swarms can destroy whole fields.",
+      "cultural": ["Plough field borders to destroy egg pods", "Dig trenches for hoppers", "Report swarms immediately to the Locust Warning Organisation / agriculture department"],
+      "organic": ["Neem oil 1500 ppm 5 ml/L", "Metarhizium acridum biopesticide"],
+      "chemical": ["Swarm control is done by government teams; do not spray swarms on your own"],
+      "threshold": "Report any swarm at once."
+    },
+    "phylloxera": {
+      "name": "Grape phylloxera", "damage": "Aphid-like insect forming galls on leaves and roots; root feeding weakens and kills vines.",
+      "cultural": ["Use phylloxera-resistant rootstocks (main control)", "Use clean planting material", "Clean tools and boots between vineyards"],
+      "organic": ["No effective organic control for root forms"],
+      "chemical": ["Leaf galls: Imidacloprid 17.8 SL 0.3 ml/L at early gall formation"],
+      "threshold": "Plant resistant rootstocks; treat leaf galls only when they are numerous."
+    }
+  },
+  "pests": {
+    "0": ["rice leaf roller", "Rice", "caterpillars"], "1": ["rice leaf caterpillar", "Rice", "caterpillars"],
+    "2": ["paddy stem maggot", "Rice", "gall_midges_flies"], "3": ["asiatic rice borer", "Rice", "stem_borers"],
+    "4": ["yellow rice borer", "Rice", "stem_borers"], "5": ["rice gall midge", "Rice", "gall_midges_flies"],
+    "6": ["rice stemfly", "Rice", "gall_midges_flies"], "7": ["brown plant hopper", "Rice", "planthoppers"],
+    "8": ["white backed plant hopper", "Rice", "planthoppers"], "9": ["small brown plant hopper", "Rice", "planthoppers"],
+    "10": ["rice water weevil", "Rice", "beetles_weevils"], "11": ["rice leafhopper", "Rice", "leafhoppers_bugs"],
+    "12": ["grain spreader thrips", "Rice", "thrips"], "13": ["rice shell pest", "Rice", "caterpillars"],
+    "14": ["white grub", "Corn", "soil_pests"], "15": ["mole cricket", "Corn", "soil_pests"],
+    "16": ["wireworm", "Corn", "soil_pests"], "17": ["white margined moth", "Corn", "caterpillars"],
+    "18": ["black cutworm", "Corn", "caterpillars"], "19": ["large cutworm", "Corn", "caterpillars"],
+    "20": ["yellow cutworm", "Corn", "caterpillars"], "21": ["red spider mite", "Corn", "mites"],
+    "22": ["corn borer", "Corn", "stem_borers"], "23": ["armyworm", "Corn", "caterpillars"],
+    "24": ["aphids", "Corn", "aphids"], "25": ["white-spotted flower chafer (Protaetia brevitarsis)", "Corn", "soil_pests"],
+    "26": ["peach borer", "Corn", "stem_borers"], "27": ["english grain aphid", "Wheat", "aphids"],
+    "28": ["greenbug aphid", "Wheat", "aphids"], "29": ["bird cherry-oat aphid", "Wheat", "aphids"],
+    "30": ["wheat blossom midge", "Wheat", "gall_midges_flies"], "31": ["winter grain mite (Penthaleus major)", "Wheat", "mites"],
+    "32": ["long-legged spider mite", "Wheat", "mites"], "33": ["wheat thrips (Haplothrips)", "Wheat", "thrips"],
+    "34": ["wheat sawfly", "Wheat", "stem_borers"], "35": ["wheat leaf miner (Cerodontha denticornis)", "Wheat", "gall_midges_flies"],
+    "36": ["beet fly", "Beet", "gall_midges_flies"], "37": ["flea beetle", "Beet", "beetles_weevils"],
+    "38": ["cabbage armyworm", "Beet", "caterpillars"], "39": ["beet armyworm", "Beet", "caterpillars"],
+    "40": ["beet spot fly (leaf miner)", "Beet", "gall_midges_flies"], "41": ["meadow moth", "Beet", "caterpillars"],
+    "42": ["beet weevil", "Beet", "beetles_weevils"], "43": ["oriental chafer beetle (Serica orientalis)", "Beet", "soil_pests"],
+    "44": ["alfalfa weevil", "Alfalfa", "beetles_weevils"], "45": ["flax budworm", "Alfalfa", "caterpillars"],
+    "46": ["alfalfa plant bug", "Alfalfa", "leafhoppers_bugs"], "47": ["tarnished plant bug", "Alfalfa", "leafhoppers_bugs"],
+    "48": ["locust / grasshopper", "Alfalfa", "locusts_grasshoppers"], "49": ["blister beetle (Lytta polita)", "Alfalfa", "beetles_weevils"],
+    "50": ["legume blister beetle", "Alfalfa", "beetles_weevils"], "51": ["blister beetle", "Alfalfa", "beetles_weevils"],
+    "52": ["spotted alfalfa aphid", "Alfalfa", "aphids"], "53": ["alfalfa thrips (Odontothrips loti)", "Alfalfa", "thrips"],
+    "54": ["thrips", "Alfalfa", "thrips"], "55": ["alfalfa seed chalcid", "Alfalfa", "gall_midges_flies"],
+    "56": ["cabbage white butterfly caterpillar (Pieris canidia)", "Alfalfa", "caterpillars"],
+    "57": ["green plant bug (Apolygus lucorum)", "Grape", "leafhoppers_bugs"], "58": ["slug caterpillar (Limacodidae, stinging)", "Grape", "caterpillars"],
+    "59": ["grape phylloxera", "Grape", "phylloxera"], "60": ["grape erineum mite (Colomerus vitis)", "Grape", "mites"],
+    "61": ["grape false spider mite (Brevipalpus lewisi)", "Grape", "mites"], "62": ["grape leaf beetle (Oides decempunctata)", "Grape", "beetles_weevils"],
+    "63": ["broad mite (Polyphagotarsonemus latus)", "Grape", "mites"], "64": ["Comstock mealybug", "Grape", "scales_mealybugs"],
+    "65": ["grape clearwing moth (Parathrene regalis)", "Grape", "tree_borers"], "66": ["grape hawk moth caterpillar (Ampelophaga)", "Grape", "caterpillars"],
+    "67": ["spotted lanternfly (Lycorma delicatula)", "Grape", "leafhoppers_bugs"], "68": ["grape stem borer (Xylotrechus)", "Grape", "tree_borers"],
+    "69": ["green leafhopper (Cicadella viridis)", "Grape", "leafhoppers_bugs"], "70": ["plant bug (Miridae)", "Grape", "leafhoppers_bugs"],
+    "71": ["greenhouse whitefly", "Grape", "whiteflies"], "72": ["grape leafhopper (Erythroneura apicalis)", "Grape", "leafhoppers_bugs"],
+    "73": ["citrus butterfly caterpillar (Papilio xuthus)", "Citrus", "caterpillars"], "74": ["citrus red mite", "Citrus", "mites"],
+    "75": ["citrus rust mite", "Citrus", "mites"], "76": ["cottony cushion scale", "Citrus", "scales_mealybugs"],
+    "77": ["arrowhead scale", "Citrus", "scales_mealybugs"], "78": ["red wax scale", "Citrus", "scales_mealybugs"],
+    "79": ["Florida red scale", "Citrus", "scales_mealybugs"], "80": ["black parlatoria scale", "Citrus", "scales_mealybugs"],
+    "81": ["spherical mealybug (Nipaecoccus viridis)", "Citrus", "scales_mealybugs"], "82": ["citrus spiny blackfly", "Citrus", "whiteflies"],
+    "83": ["Chinese citrus fly (Bactrocera minax)", "Citrus", "fruit_flies"], "84": ["oriental fruit fly (Bactrocera dorsalis)", "Citrus", "fruit_flies"],
+    "85": ["Japanese orange fly (Bactrocera tsuneonis)", "Citrus", "fruit_flies"], "86": ["tobacco caterpillar (Spodoptera litura)", "Citrus", "caterpillars"],
+    "87": ["fruit-piercing moth (Adris tyrannus)", "Citrus", "caterpillars"], "88": ["citrus leaf miner", "Citrus", "gall_midges_flies"],
+    "89": ["brown citrus aphid", "Citrus", "aphids"], "90": ["black citrus aphid", "Citrus", "aphids"],
+    "91": ["spirea aphid (Aphis citricola)", "Citrus", "aphids"], "92": ["chilli thrips (Scirtothrips dorsalis)", "Mango", "thrips"],
+    "93": ["mango gall midge (Dasineura)", "Mango", "gall_midges_flies"], "94": ["flatid planthopper (Lawana imitata)", "Mango", "leafhoppers_bugs"],
+    "95": ["flatid planthopper (Salurnis marginella)", "Mango", "leafhoppers_bugs"], "96": ["mango leaf-cutting weevil", "Mango", "beetles_weevils"],
+    "97": ["mango shoot borer (Chlumetia transversa)", "Mango", "stem_borers"], "98": ["mango flat-beak leafhopper", "Mango", "leafhoppers_bugs"],
+    "99": ["mango stem borer (Rhytidodera)", "Mango", "tree_borers"], "100": ["mango pulp weevil (Sternochetus)", "Mango", "beetles_weevils"],
+    "101": ["leafhopper (Cicadellidae)", "Mango", "leafhoppers_bugs"]
+  }
+}

@@ -1,0 +1,13 @@
+# ExecuTorch environment for the on-device pipeline (advisor/*): Python 3.14 tested on Windows 10
+executorch==1.6.0
+torch
+torchvision
+huggingface_hub
+opencv-python-headless
+pandas
+pillow
+# IndicTrans2 translator (its remote code needs transformers 4.x)
+transformers>=4.46,<4.52
+sentencepiece
+sacremoses
+indic-nlp-library

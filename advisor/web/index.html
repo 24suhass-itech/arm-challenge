@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KrishiRakshak</title>
+<style>
+  :root {
+    --bg: #f5f7f2; --card: #ffffff; --ink: #18221b; --muted: #5b675e; --line: #dde3da;
+    --brand: #1f6b45; --brand-ink: #ffffff; --warn: #a15c00; --bad: #b3261e; --good: #1f6b45;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font-family: "Noto Sans", "Noto Sans Devanagari", "Noto Sans Kannada", "Noto Sans Tamil", "Noto Sans Telugu",
+                      "Noto Sans Bengali", "Noto Sans Gujarati", "Noto Sans Malayalam", "Noto Sans Oriya",
+                      "Noto Sans Gurmukhi", system-ui, sans-serif; }
+  header { background: var(--brand); color: var(--brand-ink); padding: 10px 16px; display: flex;
+           align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+  header h1 { margin: 0; font-size: 22px; }
+  header .sub { font-size: 13px; opacity: .85; }
+  select { font-size: 18px; padding: 8px; border-radius: 8px; border: 1px solid var(--line); background: #fff; }
+  main { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); gap: 16px; padding: 16px; }
+  @media (max-width: 800px) { main { grid-template-columns: 1fr; } }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 14px; }
+  #preview, #photo { width: 100%; border-radius: 10px; background: #222; display: block; aspect-ratio: 4/3;
+                     object-fit: cover; }
+  .btn { display: block; width: 100%; margin-top: 12px; padding: 18px; font-size: 24px; font-weight: 700;
+         border: 0; border-radius: 12px; background: var(--brand); color: var(--brand-ink); cursor: pointer; }
+  .btn.secondary { background: #e7ede5; color: var(--ink); font-size: 18px; padding: 12px; }
+  .btn:disabled { opacity: .5; }
+  #diag { font-size: 24px; font-weight: 700; margin: 4px 0; }
+  .row { display: flex; gap: 10px; flex-wrap: wrap; margin: 6px 0; }
+  .pill { padding: 4px 10px; border-radius: 999px; background: #eef2ec; font-size: 15px; }
+  .pill.severe { background: #fbe3e1; color: var(--bad); } .pill.moderate { background: #fdf0dc; color: var(--warn); }
+  .pill.mild, .pill.none { background: #e2f1e8; color: var(--good); }
+  #answer { white-space: pre-wrap; font-size: 21px; line-height: 1.55; margin-top: 10px; }
+  #english { white-space: pre-wrap; font-size: 15px; color: var(--muted); }
+  .muted { color: var(--muted); font-size: 14px; }
+  .spinner { display: none; margin-top: 14px; font-size: 20px; }
+  .spinner.on { display: block; }
+  details { margin-top: 12px; }
+</style>
+</head>
+<body>
+<header>
+  <div><h1>KrishiRakshak</h1><div class="sub">Offline crop doctor · Llama 3.2 + ExecuTorch on Raspberry Pi 5</div></div>
+  <div class="row">
+    <select id="region" aria-label="Region"></select>
+    <select id="language" aria-label="Language"></select>
+  </div>
+</header>
+<main>
+  <section class="card">
+    <img id="preview" alt="Camera preview">
+    <img id="photo" alt="Photo" style="display:none">
+    <button class="btn" id="capture">📷 Take photo</button>
+    <label class="btn secondary" id="uploadLabel">🖼 Choose a photo<input id="upload" type="file" accept="image/*" hidden></label>
+    <div class="spinner" id="spin">⏳ Checking the leaf… (about 30–60 seconds)</div>
+    <p class="muted">Hold one leaf (or one insect) close to the camera, in good light.</p>
+  </section>
+  <section class="card" id="result">
+    <div class="muted">Result</div>
+    <div id="diag">—</div>
+    <div class="row" id="pills"></div>
+    <div id="answer">Take a photo of a leaf to get advice.</div>
+    <details id="engBox" style="display:none"><summary>English</summary><div id="english"></div></details>
+    <div class="muted" id="timing"></div>
+  </section>
+</main>
+<script>
+const $ = id => document.getElementById(id);
+let opts = null;
+const store = { get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
+                set(k, v) { try { localStorage.setItem(k, v); } catch (e) {} } };
+
+async function init() {
+  opts = await (await fetch('/api/options')).json();
+  for (const r of opts.regions) $('region').add(new Option(r, r));
+  for (const l of opts.languages) $('language').add(new Option(l, l));
+  $('region').value = store.get('region') || 'India (general)';
+  $('language').value = store.get('language') || opts.region_language[$('region').value] || 'English';
+  if (!opts.languages.includes($('language').value)) $('language').value = 'English';
+  $('region').onchange = () => {
+    store.set('region', $('region').value);
+    const l = opts.region_language[$('region').value];
+    if (opts.languages.includes(l)) { $('language').value = l; store.set('language', l); }
+  };
+  $('language').onchange = () => store.set('language', $('language').value);
+  if (opts.camera) { $('preview').src = '/stream.mjpg'; }
+  else { $('preview').style.display = 'none'; $('capture').style.display = 'none'; }
+}
+
+function q() {
+  return `region=${encodeURIComponent($('region').value)}&language=${encodeURIComponent($('language').value)}`;
+}
+
+async function analyse(url, body) {
+  $('spin').classList.add('on'); $('capture').disabled = true;
+  $('answer').textContent = ''; $('diag').textContent = '…'; $('pills').innerHTML = ''; $('timing').textContent = '';
+  try {
+    const res = await fetch(url + '?' + q(), { method: 'POST', body });
+    const r = await res.json();
+    if (r.error) throw new Error(r.error);
+    show(r);
+  } catch (e) {
+    $('diag').textContent = 'Error'; $('answer').textContent = String(e.message || e);
+  } finally {
+    $('spin').classList.remove('on'); $('capture').disabled = false;
+  }
+}
+
+function pill(text, cls) { const s = document.createElement('span'); s.className = 'pill ' + (cls || ''); s.textContent = text; $('pills').append(s); }
+
+function show(r) {
+  const d = r.diagnosis;
+  $('photo').src = r.photo; $('photo').style.display = 'block';
+  if (opts.camera) $('preview').style.display = 'none';
+  $('diag').textContent = r.status === 'retake' ? 'Please retake the photo' : d.label;
+  pill(`${d.kind} · ${Math.round(d.confidence * 100)}% sure`);
+  if (r.status === 'possible') pill('not certain', 'moderate');
+  if (r.severity && r.severity.percent !== null) pill(`severity: ${r.severity.level} (${Math.round(r.severity.percent)}%)`, r.severity.level);
+  pill(`${r.region} · ${r.season}`);
+  $('answer').textContent = r.answer;
+  $('engBox').style.display = r.language !== 'English' ? 'block' : 'none';
+  $('english').textContent = r.english;
+  const t = r.timing;
+  $('timing').textContent = `vision ${t.vision_s}s · advice ${t.advice_s}s` + (t.translate_s ? ` · translation ${t.translate_s}s` : '') + ` · ${r.source}`;
+  if (opts.camera) $('capture').textContent = '📷 New photo';
+}
+
+$('capture').onclick = () => {
+  if ($('photo').style.display === 'block') {   // first tap after a result: back to the live camera
+    $('photo').style.display = 'none'; $('preview').style.display = 'block';
+    $('capture').textContent = '📷 Take photo'; return;
+  }
+  analyse('/api/capture', null);
+};
+$('upload').onchange = e => { const f = e.target.files[0]; if (f) analyse('/api/analyze', f); e.target.value = ''; };
+init();
+</script>
+</body>
+</html>

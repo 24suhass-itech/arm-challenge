@@ -1,0 +1,38 @@
+{
+  "_about": "Region context added to every advisory prompt. Seasons follow the Indian cropping calendar (Kharif: June-October, Rabi: November-March, Zaid: March-June). Helpline: Kisan Call Centre 1800-180-1551 (toll free, all states).",
+  "seasons": {
+    "kharif": {"months": [6, 7, 8, 9, 10], "risk": "Monsoon rain and high humidity favour fungal and bacterial diseases (blights, leaf spots, downy mildew), stem borers and planthoppers. Spray between showers; add a sticker to the spray."},
+    "rabi": {"months": [11, 12, 1, 2, 3], "risk": "Cool nights and fog favour late blight, rusts and powdery mildew; aphids build up in winter."},
+    "zaid": {"months": [4, 5], "risk": "Hot, dry weather favours mites, thrips and whiteflies (and leaf curl viruses); water stress makes plants more susceptible."}
+  },
+  "regions": {
+    "India (general)": {"language": "English", "zone": "varied", "notes": "Contact the nearest Krishi Vigyan Kendra (KVK) for locally approved products."},
+    "Andhra Pradesh": {"language": "Telugu", "zone": "tropical, coastal and semi-arid", "notes": "Rice, chilli, cotton and mango areas; watch chilli thrips and leaf curl."},
+    "Assam": {"language": "Assamese", "zone": "humid subtropical, high rainfall", "notes": "Rice and tea; frequent rain makes protective fungicide sprays important."},
+    "Bihar": {"language": "Hindi", "zone": "subtropical, alluvial plains", "notes": "Rice-wheat, maize and potato; foggy winters raise late blight risk in potato."},
+    "Gujarat": {"language": "Gujarati", "zone": "arid to semi-arid", "notes": "Cotton, groundnut and mango; sucking pests and mites in dry periods."},
+    "Haryana": {"language": "Hindi", "zone": "semi-arid, irrigated", "notes": "Rice-wheat system; yellow rust and aphids in wheat during cool winters."},
+    "Himachal Pradesh": {"language": "Hindi", "zone": "temperate hills", "notes": "Apple, stone fruit and vegetables; apple scab and rust risk in wet springs."},
+    "Jammu and Kashmir": {"language": "Hindi", "zone": "temperate", "notes": "Apple and saffron; apple scab is the key spring disease."},
+    "Karnataka": {"language": "Kannada", "zone": "tropical, semi-arid plateau and coastal", "notes": "Maize, tomato, grape and mango; fall armyworm in maize."},
+    "Kerala": {"language": "Malayalam", "zone": "humid tropical, very high rainfall", "notes": "Coconut, banana, pepper and rice; long wet seasons favour fungal diseases."},
+    "Madhya Pradesh": {"language": "Hindi", "zone": "subtropical, semi-arid", "notes": "Soybean, wheat and chickpea; soybean rust and girdle beetle in Kharif."},
+    "Maharashtra": {"language": "Marathi", "zone": "tropical, semi-arid", "notes": "Cotton, soybean, grape, onion and citrus; grape downy mildew in rainy spells, citrus greening in Vidarbha."},
+    "Odisha": {"language": "Odia", "zone": "tropical, humid", "notes": "Rice; brown planthopper and stem borer outbreaks in Kharif."},
+    "Punjab": {"language": "Punjabi", "zone": "semi-arid, irrigated", "notes": "Rice-wheat and potato; potato late blight in foggy December-January."},
+    "Rajasthan": {"language": "Hindi", "zone": "arid", "notes": "Bajra, mustard and pulses; locust alerts in western districts, aphids on mustard."},
+    "Tamil Nadu": {"language": "Tamil", "zone": "tropical", "notes": "Rice, banana, tomato and sugarcane; leaf curl and whiteflies in summer vegetables."},
+    "Telangana": {"language": "Telugu", "zone": "semi-arid", "notes": "Cotton, rice, maize and chilli; pink bollworm in cotton, thrips in chilli."},
+    "Uttar Pradesh": {"language": "Hindi", "zone": "subtropical, alluvial plains", "notes": "Wheat, rice, sugarcane, potato and mango; mango hoppers at flowering."},
+    "Uttarakhand": {"language": "Hindi", "zone": "temperate to subtropical hills", "notes": "Apple, vegetables and rice; wet springs favour scab and leaf spots."},
+    "West Bengal": {"language": "Bengali", "zone": "humid subtropical", "notes": "Rice, potato, jute and vegetables; potato late blight in winter fog."}
+  },
+  "languages": {
+    "English": {"llama_native": true},
+    "Hindi": {"llama_native": true},
+    "Bengali": {"llama_native": false}, "Telugu": {"llama_native": false}, "Marathi": {"llama_native": false},
+    "Tamil": {"llama_native": false}, "Gujarati": {"llama_native": false}, "Kannada": {"llama_native": false},
+    "Malayalam": {"llama_native": false}, "Odia": {"llama_native": false}, "Punjabi": {"llama_native": false},
+    "Assamese": {"llama_native": false}
+  }
+}
